@@ -25,6 +25,7 @@ for p in pkts:
 		p.payload = Dot11(str(p.payload))
 		m = p.payload.payload
 		m.payload = LLC(m.wepdata)
+	#output the DNS anomalies
 	if p.haslayer(TCP) and p[TCP].payload.name == 'DNS_Extended':
 		print '=' * 100
 		print 'DNS Anomaly: Frame %d\n'%(index), p.show()
