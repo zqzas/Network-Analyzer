@@ -7,6 +7,16 @@ Test the pcap file: http://wiki.wireshark.org/SampleCaptures?action=AttachFile&d
 
 The handler should understand the DNS anomaly and display the results.
 
+Study on dns-remoteshell.pcap
+----
+The packet list leads by some normal dns traffic.
+But later, some tcp traffic is riding on port 53, which seems to be remote shell connections.
+
+Tricks:
+Some 802.11 and Logical-Link Control protocols are hidden in a few packets. 
+I need to handle them if they can't be automatically detected by scapy.
+
+
 Approach:
 ----
 My approach is based on scapy.
