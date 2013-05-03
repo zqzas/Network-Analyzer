@@ -1,0 +1,469 @@
+====================================================================================================
+DNS Anomaly: Frame 21
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ 802.11 ]###
+     subtype   = 0L
+     type      = Data
+     proto     = 0L
+     FCfield   = to-DS+wep
+     ID        = 513
+     addr1     = 00:10:c6:30:6b:b3
+     addr2     = 00:80:48:24:33:32
+     addr3     = 00:0e:35:78:0c:02
+     SC        = 896
+     addr4     = None
+###[ 802.11 WEP packet ]###
+        iv        = '\xda\xfc\xf7'
+        keyid     = 0
+        wepdata   = '\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00\x80\x07\xcd@\x00@\x06\xafU\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x005\x05t\xbd\x0f/\xed#\xc53\xc0P\x18\xff\xffN\x14\x00\x00Microsoft Windows XP [Version 5.1.2600]\r\n(C) Copyright 1985-2001 Microsoft Corp.\r\n\r\nC:\\>'
+        icv       = 1629383609
+###[ LLC ]###
+           dsap      = 0xaa
+           ssap      = 0xaa
+           ctrl      = 3
+###[ SNAP ]###
+              OUI       = 0x0
+              code      = 0x800
+###[ IP ]###
+                 version   = 4L
+                 ihl       = 5L
+                 tos       = 0x0
+                 len       = 128
+                 id        = 1997
+                 flags     = DF
+                 frag      = 0L
+                 ttl       = 64
+                 proto     = tcp
+                 chksum    = 0xaf55
+                 src       = 192.168.1.2
+                 dst       = 192.168.1.3
+                 \options   \
+###[ TCP ]###
+                    sport     = domain
+                    dport     = dvl_activemail
+                    seq       = 3171889133
+                    ack       = 600126400
+                    dataofs   = 5L
+                    reserved  = 0L
+                    flags     = PA
+                    window    = 65535
+                    chksum    = 0x4e14
+                    urgptr    = 0
+                    options   = []
+###[ DNS_Extended ]###
+                       DNS anomaly= 'Microsoft Windows XP [Version 5.1.2600]\r\n(C) Copyright 1985-2001 Microsoft Corp.\r\n\r\nC:\\>'
+None
+====================================================================================================
+DNS Anomaly: Frame 22
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 128
+     id        = 1997
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xaf55
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = domain
+        dport     = dvl_activemail
+        seq       = 3171889133
+        ack       = 600126400
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 65535
+        chksum    = 0x4e14
+        urgptr    = 0
+        options   = []
+###[ DNS_Extended ]###
+           DNS anomaly= 'Microsoft Windows XP [Version 5.1.2600]\r\n(C) Copyright 1985-2001 Microsoft Corp.\r\n\r\nC:\\>'
+None
+====================================================================================================
+DNS Anomaly: Frame 25
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 44
+     id        = 5389
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x6269
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = dvl_activemail
+        dport     = domain
+        seq       = 600126400
+        ack       = 3171889221
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 17336
+        chksum    = 0xc7c3
+        urgptr    = 0
+        options   = []
+###[ DNS_Extended ]###
+           DNS anomaly= 'dir\n'
+###[ Padding ]###
+              load      = '\x00\x00'
+None
+====================================================================================================
+DNS Anomaly: Frame 26
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ 802.11 ]###
+     subtype   = 0L
+     type      = Data
+     proto     = 0L
+     FCfield   = from-DS+wep
+     ID        = 513
+     addr1     = 00:80:48:24:33:32
+     addr2     = 00:10:c6:30:6b:b3
+     addr3     = 00:0e:35:78:0c:02
+     SC        = 37440
+     addr4     = None
+###[ 802.11 WEP packet ]###
+        iv        = 'x\xd2\x17'
+        keyid     = 0
+        wepdata   = '\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00,\x15\r@\x00\x80\x06bi\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05t\x005#\xc53\xc0\xbd\x0f0EP\x18C\xb8\xc7\xc3\x00\x00dir\n'
+        icv       = 512134871
+###[ LLC ]###
+           dsap      = 0xaa
+           ssap      = 0xaa
+           ctrl      = 3
+###[ SNAP ]###
+              OUI       = 0x0
+              code      = 0x800
+###[ IP ]###
+                 version   = 4L
+                 ihl       = 5L
+                 tos       = 0x0
+                 len       = 44
+                 id        = 5389
+                 flags     = DF
+                 frag      = 0L
+                 ttl       = 128
+                 proto     = tcp
+                 chksum    = 0x6269
+                 src       = 192.168.1.3
+                 dst       = 192.168.1.2
+                 \options   \
+###[ TCP ]###
+                    sport     = dvl_activemail
+                    dport     = domain
+                    seq       = 600126400
+                    ack       = 3171889221
+                    dataofs   = 5L
+                    reserved  = 0L
+                    flags     = PA
+                    window    = 17336
+                    chksum    = 0xc7c3
+                    urgptr    = 0
+                    options   = []
+###[ DNS_Extended ]###
+                       DNS anomaly= 'dir\n'
+None
+====================================================================================================
+DNS Anomaly: Frame 27
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ 802.11 ]###
+     subtype   = 0L
+     type      = Data
+     proto     = 0L
+     FCfield   = to-DS+wep
+     ID        = 513
+     addr1     = 00:10:c6:30:6b:b3
+     addr2     = 00:80:48:24:33:32
+     addr3     = 00:0e:35:78:0c:02
+     SC        = 912
+     addr4     = None
+###[ 802.11 WEP packet ]###
+        iv        = '6\x8b\x1b'
+        keyid     = 0
+        wepdata   = '\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00\xf1\x07\xce@\x00@\x06\xae\xe3\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x005\x05t\xbd\x0f0E#\xc53\xc4P\x18\xff\xfbO;\x00\x00dir\r\n Volume in drive C has no label.\r\n Volume Serial Number is FF47-80EB\r\n\r\n Directory of C:\\\r\n\r\n01/12/2005  11:59 AM                 0 aierrorlog.txt\r\n01/19/2004  09:45 PM                 0 AUTOEXEC.'
+        icv       = 891056940
+###[ LLC ]###
+           dsap      = 0xaa
+           ssap      = 0xaa
+           ctrl      = 3
+###[ SNAP ]###
+              OUI       = 0x0
+              code      = 0x800
+###[ IP ]###
+                 version   = 4L
+                 ihl       = 5L
+                 tos       = 0x0
+                 len       = 241
+                 id        = 1998
+                 flags     = DF
+                 frag      = 0L
+                 ttl       = 64
+                 proto     = tcp
+                 chksum    = 0xaee3
+                 src       = 192.168.1.2
+                 dst       = 192.168.1.3
+                 \options   \
+###[ TCP ]###
+                    sport     = domain
+                    dport     = dvl_activemail
+                    seq       = 3171889221
+                    ack       = 600126404
+                    dataofs   = 5L
+                    reserved  = 0L
+                    flags     = PA
+                    window    = 65531
+                    chksum    = 0x4f3b
+                    urgptr    = 0
+                    options   = []
+###[ DNS_Extended ]###
+                       DNS anomaly= 'dir\r\n Volume in drive C has no label.\r\n Volume Serial Number is FF47-80EB\r\n\r\n Directory of C:\\\r\n\r\n01/12/2005  11:59 AM                 0 aierrorlog.txt\r\n01/19/2004  09:45 PM                 0 AUTOEXEC.'
+None
+====================================================================================================
+DNS Anomaly: Frame 28
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 241
+     id        = 1998
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xaee3
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = domain
+        dport     = dvl_activemail
+        seq       = 3171889221
+        ack       = 600126404
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 65531
+        chksum    = 0x4f3b
+        urgptr    = 0
+        options   = []
+###[ DNS_Extended ]###
+           DNS anomaly= 'dir\r\n Volume in drive C has no label.\r\n Volume Serial Number is FF47-80EB\r\n\r\n Directory of C:\\\r\n\r\n01/12/2005  11:59 AM                 0 aierrorlog.txt\r\n01/19/2004  09:45 PM                 0 AUTOEXEC.'
+None
+====================================================================================================
+DNS Anomaly: Frame 31
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ 802.11 ]###
+     subtype   = 0L
+     type      = Data
+     proto     = 0L
+     FCfield   = to-DS+wep
+     ID        = 513
+     addr1     = 00:10:c6:30:6b:b3
+     addr2     = 00:80:48:24:33:32
+     addr3     = 00:0e:35:78:0c:02
+     SC        = 928
+     addr4     = None
+###[ 802.11 WEP packet ]###
+        iv        = '(\x9c\x1d'
+        keyid     = 0
+        wepdata   = '\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x04\x1b\x07\xcf@\x00@\x06\xab\xb8\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x005\x05t\xbd\x0f1\x0e#\xc53\xc4P\x18\xff\xfb\x1dE\x00\x00BAT\r\n01/19/2004  09:45 PM                 0 CONFIG.SYS\r\n06/26/2004  12:12 PM    <DIR>          Documents and Settings\r\n02/03/2005  11:40 PM    <DIR>          EasyBoot\r\n02/29/2004  02:51 PM            11,531 installer-debug.txt\r\n12/19/2004  12:50 AM    <DIR>          mga\r\n12/19/2004  12:51 AM    <DIR>          mgafold\r\n11/24/2004  07:47 PM    <DIR>          mnt\r\n10/07/2004  10:01 AM    <DIR>          movie\r\n06/26/2004  01:03 PM    <DIR>          My Downloads\r\n01/13/2005  10:52 PM    <DIR>          Program Files\r\n01/04/2005  10:27 AM    <DIR>          quarantine\r\n04/19/2004  09:57 PM             7,241 s37g\r\n10/31/2004  08:36 PM                 0 s3fs\r\n06/02/2004  08:54 PM               123 systemscandata.txt\r\n08/08/2004  10:48 AM    <DIR>          Temp\r\n12/12/2004  02:24 PM        94,135,944 temp.mpg\r\n01/13/2005  06:10 PM    <DIR>          WINDOWS\r\n11/20/2004  09:27 AM    <DIR>          WUTemp\r\n               8 File(s)     94,154,839 bytes\r\n              12 Dir(s)   7,145,897,984 bytes free\r\n\r\nC:\\>'
+        icv       = 3396578392
+###[ LLC ]###
+           dsap      = 0xaa
+           ssap      = 0xaa
+           ctrl      = 3
+###[ SNAP ]###
+              OUI       = 0x0
+              code      = 0x800
+###[ IP ]###
+                 version   = 4L
+                 ihl       = 5L
+                 tos       = 0x0
+                 len       = 1051
+                 id        = 1999
+                 flags     = DF
+                 frag      = 0L
+                 ttl       = 64
+                 proto     = tcp
+                 chksum    = 0xabb8
+                 src       = 192.168.1.2
+                 dst       = 192.168.1.3
+                 \options   \
+###[ TCP ]###
+                    sport     = domain
+                    dport     = dvl_activemail
+                    seq       = 3171889422
+                    ack       = 600126404
+                    dataofs   = 5L
+                    reserved  = 0L
+                    flags     = PA
+                    window    = 65531
+                    chksum    = 0x1d45
+                    urgptr    = 0
+                    options   = []
+###[ DNS_Extended ]###
+                       DNS anomaly= 'BAT\r\n01/19/2004  09:45 PM                 0 CONFIG.SYS\r\n06/26/2004  12:12 PM    <DIR>          Documents and Settings\r\n02/03/2005  11:40 PM    <DIR>          EasyBoot\r\n02/29/2004  02:51 PM            11,531 installer-debug.txt\r\n12/19/2004  12:50 AM    <DIR>          mga\r\n12/19/2004  12:51 AM    <DIR>          mgafold\r\n11/24/2004  07:47 PM    <DIR>          mnt\r\n10/07/2004  10:01 AM    <DIR>          movie\r\n06/26/2004  01:03 PM    <DIR>          My Downloads\r\n01/13/2005  10:52 PM    <DIR>          Program Files\r\n01/04/2005  10:27 AM    <DIR>          quarantine\r\n04/19/2004  09:57 PM             7,241 s37g\r\n10/31/2004  08:36 PM                 0 s3fs\r\n06/02/2004  08:54 PM               123 systemscandata.txt\r\n08/08/2004  10:48 AM    <DIR>          Temp\r\n12/12/2004  02:24 PM        94,135,944 temp.mpg\r\n01/13/2005  06:10 PM    <DIR>          WINDOWS\r\n11/20/2004  09:27 AM    <DIR>          WUTemp\r\n               8 File(s)     94,154,839 bytes\r\n              12 Dir(s)   7,145,897,984 bytes free\r\n\r\nC:\\>'
+None
+====================================================================================================
+DNS Anomaly: Frame 32
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 1051
+     id        = 1999
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xabb8
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = domain
+        dport     = dvl_activemail
+        seq       = 3171889422
+        ack       = 600126404
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 65531
+        chksum    = 0x1d45
+        urgptr    = 0
+        options   = []
+###[ DNS_Extended ]###
+           DNS anomaly= 'BAT\r\n01/19/2004  09:45 PM                 0 CONFIG.SYS\r\n06/26/2004  12:12 PM    <DIR>          Documents and Settings\r\n02/03/2005  11:40 PM    <DIR>          EasyBoot\r\n02/29/2004  02:51 PM            11,531 installer-debug.txt\r\n12/19/2004  12:50 AM    <DIR>          mga\r\n12/19/2004  12:51 AM    <DIR>          mgafold\r\n11/24/2004  07:47 PM    <DIR>          mnt\r\n10/07/2004  10:01 AM    <DIR>          movie\r\n06/26/2004  01:03 PM    <DIR>          My Downloads\r\n01/13/2005  10:52 PM    <DIR>          Program Files\r\n01/04/2005  10:27 AM    <DIR>          quarantine\r\n04/19/2004  09:57 PM             7,241 s37g\r\n10/31/2004  08:36 PM                 0 s3fs\r\n06/02/2004  08:54 PM               123 systemscandata.txt\r\n08/08/2004  10:48 AM    <DIR>          Temp\r\n12/12/2004  02:24 PM        94,135,944 temp.mpg\r\n01/13/2005  06:10 PM    <DIR>          WINDOWS\r\n11/20/2004  09:27 AM    <DIR>          WUTemp\r\n               8 File(s)     94,154,839 bytes\r\n              12 Dir(s)   7,145,897,984 bytes free\r\n\r\nC:\\>'
+None
+====================================================================================================
+DNS Anomaly: Frame 35
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 45
+     id        = 5392
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x6265
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = dvl_activemail
+        dport     = domain
+        seq       = 600126404
+        ack       = 3171890433
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 16124
+        chksum    = 0xc545
+        urgptr    = 0
+        options   = []
+###[ DNS_Extended ]###
+           DNS anomaly= 'exit\n'
+###[ Padding ]###
+              load      = '\x00'
+None
+====================================================================================================
+DNS Anomaly: Frame 36
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ 802.11 ]###
+     subtype   = 0L
+     type      = Data
+     proto     = 0L
+     FCfield   = from-DS+wep
+     ID        = 513
+     addr1     = 00:80:48:24:33:32
+     addr2     = 00:10:c6:30:6b:b3
+     addr3     = 00:0e:35:78:0c:02
+     SC        = 38000
+     addr4     = None
+###[ 802.11 WEP packet ]###
+        iv        = '}\xd2\x17'
+        keyid     = 0
+        wepdata   = '\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00-\x15\x10@\x00\x80\x06be\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05t\x005#\xc53\xc4\xbd\x0f5\x01P\x18>\xfc\xc5E\x00\x00exit\n'
+        icv       = 430274808
+###[ LLC ]###
+           dsap      = 0xaa
+           ssap      = 0xaa
+           ctrl      = 3
+###[ SNAP ]###
+              OUI       = 0x0
+              code      = 0x800
+###[ IP ]###
+                 version   = 4L
+                 ihl       = 5L
+                 tos       = 0x0
+                 len       = 45
+                 id        = 5392
+                 flags     = DF
+                 frag      = 0L
+                 ttl       = 128
+                 proto     = tcp
+                 chksum    = 0x6265
+                 src       = 192.168.1.3
+                 dst       = 192.168.1.2
+                 \options   \
+###[ TCP ]###
+                    sport     = dvl_activemail
+                    dport     = domain
+                    seq       = 600126404
+                    ack       = 3171890433
+                    dataofs   = 5L
+                    reserved  = 0L
+                    flags     = PA
+                    window    = 16124
+                    chksum    = 0xc545
+                    urgptr    = 0
+                    options   = []
+###[ DNS_Extended ]###
+                       DNS anomaly= 'exit\n'
+None

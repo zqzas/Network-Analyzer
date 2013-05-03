@@ -1,0 +1,548 @@
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:16:e3:19:27:15
+  src       = 00:04:76:96:7b:da
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 82
+     id        = 30445
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x56cf
+     src       = 192.168.1.2
+     dst       = 212.204.214.114
+     \options   \
+###[ TCP ]###
+        sport     = amt_blc_port
+        dport     = 6667
+        seq       = 1304973037
+        ack       = 1425084530
+        dataofs   = 8L
+        reserved  = 0L
+        flags     = PA
+        window    = 8011
+        chksum    = 0x6d2e
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (14215752, 2196036272))]
+###[ IRC Request ]###
+           Prefix    = None
+           Command   = 'ISON'
+           Parameter = 'Thunfisch Smiley SmileyG'
+           Trailer   = None
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:04:76:96:7b:da
+  src       = 00:16:e3:19:27:15
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 98
+     id        = 13586
+     flags     = DF
+     frag      = 0L
+     ttl       = 46
+     proto     = tcp
+     chksum    = 0xaa9a
+     src       = 212.204.214.114
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = 6667
+        dport     = amt_blc_port
+        seq       = 1425084530
+        ack       = 1304973067
+        dataofs   = 8L
+        reserved  = 0L
+        flags     = PA
+        window    = 57920
+        chksum    = 0x47d2
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (2196036565, 14215752))]
+###[ IRC Response ]###
+           Prefix    = ':sterling.freenode.net'
+           Command   = '303'
+           Parameter = 'vmlemon '
+           Trailer   = ':SmileyG'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:04:76:96:7b:da
+  src       = 00:16:e3:19:27:15
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 143
+     id        = 15400
+     flags     = DF
+     frag      = 0L
+     ttl       = 46
+     proto     = tcp
+     chksum    = 0xa357
+     src       = 212.204.214.114
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = 6667
+        dport     = amt_blc_port
+        seq       = 1425084576
+        ack       = 1304973067
+        dataofs   = 8L
+        reserved  = 0L
+        flags     = PA
+        window    = 57920
+        chksum    = 0x83c3
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (2196036907, 14215889))]
+###[ IRC Response ]###
+           Prefix    = ':yaloki!n=yaloki@156.185-64-87.adsl-dyn.isp.belgacom.be'
+           Command   = 'PRIVMSG'
+           Parameter = '#amarok '
+           Trailer   = ':+how do you mean'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:04:76:96:7b:da
+  src       = 00:16:e3:19:27:15
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 122
+     id        = 16679
+     flags     = DF
+     frag      = 0L
+     ttl       = 46
+     proto     = tcp
+     chksum    = 0x9e6d
+     src       = 212.204.214.114
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = 6667
+        dport     = amt_blc_port
+        seq       = 1425084667
+        ack       = 1304973067
+        dataofs   = 8L
+        reserved  = 0L
+        flags     = PA
+        window    = 57920
+        chksum    = 0x2266
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (2196037135, 14219316))]
+###[ IRC Response ]###
+           Prefix    = ':jefferai!n=jefferai@amarok/developer/mitchell'
+           Command   = 'PRIVMSG'
+           Parameter = '#amarok '
+           Trailer   = ':+eh?'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:04:76:96:7b:da
+  src       = 00:16:e3:19:27:15
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 129
+     id        = 17836
+     flags     = DF
+     frag      = 0L
+     ttl       = 46
+     proto     = tcp
+     chksum    = 0x99e1
+     src       = 212.204.214.114
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = 6667
+        dport     = amt_blc_port
+        seq       = 1425084737
+        ack       = 1304973067
+        dataofs   = 8L
+        reserved  = 0L
+        flags     = PA
+        window    = 57920
+        chksum    = 0xaa1a
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (2196037356, 14221593))]
+###[ IRC Response ]###
+           Prefix    = ':jefferai!n=jefferai@amarok/developer/mitchell'
+           Command   = 'PRIVMSG'
+           Parameter = '#amarok '
+           Trailer   = ':+what, what'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:04:76:96:7b:da
+  src       = 00:16:e3:19:27:15
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 118
+     id        = 21221
+     flags     = DF
+     frag      = 0L
+     ttl       = 46
+     proto     = tcp
+     chksum    = 0x8cb3
+     src       = 212.204.214.114
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = 6667
+        dport     = amt_blc_port
+        seq       = 1425084814
+        ack       = 1304973067
+        dataofs   = 8L
+        reserved  = 0L
+        flags     = PA
+        window    = 57920
+        chksum    = 0x6039
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (2196038037, 14223805))]
+###[ IRC Response ]###
+           Prefix    = ':hurra!n=lolo@p54921341.dip0.t-ipconnect.de'
+           Command   = 'PRIVMSG'
+           Parameter = '#amarok '
+           Trailer   = ':+;p'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:16:e3:19:27:15
+  src       = 00:04:76:96:7b:da
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 68
+     id        = 30451
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x56d7
+     src       = 192.168.1.2
+     dst       = 212.204.214.114
+     \options   \
+###[ TCP ]###
+        sport     = amt_blc_port
+        dport     = 6667
+        seq       = 1304973067
+        ack       = 1425084880
+        dataofs   = 8L
+        reserved  = 0L
+        flags     = PA
+        window    = 8011
+        chksum    = 0x6d20
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (14231265, 2196038037))]
+###[ IRC Request ]###
+           Prefix    = None
+           Command   = 'WHO'
+           Parameter = '#rokymotion'
+           Trailer   = None
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:04:76:96:7b:da
+  src       = 00:16:e3:19:27:15
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 1076
+     id        = 21520
+     flags     = DF
+     frag      = 0L
+     ttl       = 46
+     proto     = tcp
+     chksum    = 0x87ca
+     src       = 212.204.214.114
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = 6667
+        dport     = amt_blc_port
+        seq       = 1425084880
+        ack       = 1304973083
+        dataofs   = 8L
+        reserved  = 0L
+        flags     = PA
+        window    = 57920
+        chksum    = 0x7c6e
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (2196038119, 14231265))]
+###[ IRC ]###
+           Prefix    = ':sterling.freenode.net'
+           Command   = '352'
+           Parameter = 'vmlemon #rokymotion n=lando pool-71-121-181-242.sttlwa.dsl-w.verizon.net irc.freenode.net land0 H '
+           Trailer   = ':0 gaim'
+###[ IRC ]###
+              Prefix    = ':sterling.freenode.net'
+              Command   = '352'
+              Parameter = 'vmlemon #rokymotion n=insane amarok/bot/insanity irc.freenode.net insanity H '
+              Trailer   = ':0 Ruby bot. (c) Tom Gilbert'
+###[ IRC ]###
+                 Prefix    = ':sterling.freenode.net'
+                 Command   = '352'
+                 Parameter = 'vmlemon #rokymotion n=oggb4mp3 amarok/livecd/oggb4mp3 irc.freenode.net oggb4mp3 H '
+                 Trailer   = ':0 oggb4mp3'
+###[ IRC ]###
+                    Prefix    = ':sterling.freenode.net'
+                    Command   = '352'
+                    Parameter = 'vmlemon #rokymotion n=tyson host86-128-245-115.range86-128.btcentralplus.com irc.freenode.net vmlemon H '
+                    Trailer   = ':0 Tyson Key'
+###[ IRC ]###
+                       Prefix    = ':sterling.freenode.net'
+                       Command   = '352'
+                       Parameter = 'vmlemon #rokymotion n=jefferai amarok/developer/mitchell irc.freenode.net jefferai H '
+                       Trailer   = ':0 Jeff Mitchell'
+###[ IRC ]###
+                          Prefix    = ':sterling.freenode.net'
+                          Command   = '352'
+                          Parameter = 'vmlemon #rokymotion i=Hydrogen perdition.campus.alfred.edu irc.freenode.net Hydrogen H '
+                          Trailer   = ':0 Dan'
+###[ IRC ]###
+                             Prefix    = ':sterling.freenode.net'
+                             Command   = '352'
+                             Parameter = 'vmlemon #rokymotion n=xpert port-87-234-134-49.dynamic.qsc.de irc.freenode.net [Xpert] H '
+                             Trailer   = ':0 xpert'
+###[ IRC Response ]###
+                                Prefix    = ':sterling.freenode.net'
+                                Command   = '352'
+                                Parameter = 'vmlemon #rokymotion n=paulc amarok/developer/foreboy irc.freenode.net foreboy H '
+                                Trailer   = ':0 P'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:04:76:96:7b:da
+  src       = 00:16:e3:19:27:15
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 1138
+     id        = 21531
+     flags     = DF
+     frag      = 0L
+     ttl       = 46
+     proto     = tcp
+     chksum    = 0x8781
+     src       = 212.204.214.114
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = 6667
+        dport     = amt_blc_port
+        seq       = 1425085904
+        ack       = 1304973083
+        dataofs   = 8L
+        reserved  = 0L
+        flags     = PA
+        window    = 57920
+        chksum    = 0x3048
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (2196038122, 14231435))]
+###[ IRC ]###
+           Prefix    = None
+           Command   = 'aul'
+           Parameter = 'Cifarelli'
+           Trailer   = None
+###[ IRC ]###
+              Prefix    = ':sterling.freenode.net'
+              Command   = '352'
+              Parameter = 'vmlemon #rokymotion n=shardz c-24-34-161-132.hsd1.ma.comcast.net irc.freenode.net shardz H '
+              Trailer   = ':0 Samuel Baldwin'
+###[ IRC ]###
+                 Prefix    = ':sterling.freenode.net'
+                 Command   = '352'
+                 Parameter = 'vmlemon #rokymotion n=mark amarok/developer/markey irc.freenode.net markey H '
+                 Trailer   = ':0 Mark Kretschmann'
+###[ IRC ]###
+                    Prefix    = ':sterling.freenode.net'
+                    Command   = '352'
+                    Parameter = 'vmlemon #rokymotion i=guti kde/developer/ngutman irc.freenode.net Guti H '
+                    Trailer   = ':0 ngutman'
+###[ IRC ]###
+                       Prefix    = ':sterling.freenode.net'
+                       Command   = '352'
+                       Parameter = 'vmlemon #rokymotion i=legends amarok/rokymotion/dangle irc.freenode.net French_Maid G '
+                       Trailer   = ':0 Christie'
+###[ IRC ]###
+                          Prefix    = ':sterling.freenode.net'
+                          Command   = '352'
+                          Parameter = 'vmlemon #rokymotion ChanServ services. irc.freenode.net ChanServ H@ '
+                          Trailer   = ':0 Channel Services'
+###[ IRC ]###
+                             Prefix    = ':sterling.freenode.net'
+                             Command   = '352'
+                             Parameter = 'vmlemon #rokymotion n=curtis11 gentoo/developer/pdpc.active.curtis119 irc.freenode.net curtis119 H '
+                             Trailer   = ':0 Curtis Napier'
+###[ IRC ]###
+                                Prefix    = ':sterling.freenode.net'
+                                Command   = '352'
+                                Parameter = 'vmlemon #rokymotion n=Paleo admin.pwsp.net irc.freenode.net Paleo H '
+                                Trailer   = ':0 Paleo'
+###[ IRC ]###
+                                   Prefix    = ':sterling.freenode.net'
+                                   Command   = '352'
+                                   Parameter = 'vmlemon #rokymotion n=Jocke amarok/rokymotion/Firetech irc.freenode.net Firetech H '
+                                   Trailer   = ':0 Jocke Andersson (Sweden)'
+###[ IRC Response ]###
+                                      Prefix    = ':sterling.freenode.net'
+                                      Command   = '315'
+                                      Parameter = 'vmlemon #rokymotion '
+                                      Trailer   = ':End of /WHO list.'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:04:76:96:7b:da
+  src       = 00:16:e3:19:27:15
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 146
+     id        = 21836
+     flags     = DF
+     frag      = 0L
+     ttl       = 46
+     proto     = tcp
+     chksum    = 0x8a30
+     src       = 212.204.214.114
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = 6667
+        dport     = amt_blc_port
+        seq       = 1425086990
+        ack       = 1304973083
+        dataofs   = 8L
+        reserved  = 0L
+        flags     = PA
+        window    = 57920
+        chksum    = 0xecf7
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (2196038201, 14231474))]
+###[ IRC Response ]###
+           Prefix    = ':eean!n=ian@amarok/developer/eean'
+           Command   = 'PRIVMSG'
+           Parameter = '#amarok '
+           Trailer   = ':+yaloki'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:16:e3:19:27:15
+  src       = 00:04:76:96:7b:da
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 82
+     id        = 30455
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x56c5
+     src       = 192.168.1.2
+     dst       = 212.204.214.114
+     \options   \
+###[ TCP ]###
+        sport     = amt_blc_port
+        dport     = 6667
+        seq       = 1304973083
+        ack       = 1425087084
+        dataofs   = 8L
+        reserved  = 0L
+        flags     = PA
+        window    = 8011
+        chksum    = 0x6d2e
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (14235996, 2196038201))]
+###[ IRC Request ]###
+           Prefix    = None
+           Command   = 'ISON'
+           Parameter = 'Thunfisch Smiley SmileyG'
+           Trailer   = None
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:04:76:96:7b:da
+  src       = 00:16:e3:19:27:15
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 98
+     id        = 23534
+     flags     = DF
+     frag      = 0L
+     ttl       = 46
+     proto     = tcp
+     chksum    = 0x83be
+     src       = 212.204.214.114
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = 6667
+        dport     = amt_blc_port
+        seq       = 1425087084
+        ack       = 1304973113
+        dataofs   = 8L
+        reserved  = 0L
+        flags     = PA
+        window    = 57920
+        chksum    = 0xe6b0
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (2196038586, 14235996))]
+###[ IRC Response ]###
+           Prefix    = ':sterling.freenode.net'
+           Command   = '303'
+           Parameter = 'vmlemon '
+           Trailer   = ':SmileyG'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:04:76:96:7b:da
+  src       = 00:16:e3:19:27:15
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 172
+     id        = 28557
+     flags     = DF
+     frag      = 0L
+     ttl       = 46
+     proto     = tcp
+     chksum    = 0x6fd5
+     src       = 212.204.214.114
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = 6667
+        dport     = amt_blc_port
+        seq       = 1425087130
+        ack       = 1304973113
+        dataofs   = 8L
+        reserved  = 0L
+        flags     = PA
+        window    = 57920
+        chksum    = 0xde24
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (2196039693, 14236109))]
+###[ IRC Response ]###
+           Prefix    = ':yaloki!n=yaloki@156.185-64-87.adsl-dyn.isp.belgacom.be'
+           Command   = 'PRIVMSG'
+           Parameter = '#amarok '
+           Trailer   = ':+eean'
