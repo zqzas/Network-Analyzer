@@ -1,4 +1,4 @@
-The Honeynet: Network-Analyzer
+The Honeynet Project: Network-Analyzer
 ================
 
 Coding Test
