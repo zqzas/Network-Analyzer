@@ -29,8 +29,8 @@ var path = svg.append("svg:g").selectAll("path")
     .enter().append("svg:path")
     .attr("class", "link")
     
-	#to modify its style, to change the stroke-width
-	#In order to decrease the differences between d.values, do sqrt and plus one:
+	//to modify its style, to change the stroke-width
+	//In order to decrease the differences between d.values, do sqrt and plus one:
 	
 	.style("stroke-width", function(d) { return Math.sqrt(d.value) + 1; })
     .attr("marker-end", "url(#end)");
