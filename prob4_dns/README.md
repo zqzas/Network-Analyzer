@@ -10,7 +10,7 @@ The handler should understand the DNS anomaly and display the results.
 Study on dns-remoteshell.pcap
 ----
 The packet list leads by some normal dns traffic.
-But later, some tcp traffic is riding on port 53, which seems to be remote shell connections.
+But later, some tcp traffic starts riding on port 53, which seems to be remote shell connections.
 
 Tricks:
 Some 802.11 and Logical-Link Control protocols are hidden in a few packets. 
