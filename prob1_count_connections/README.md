@@ -1,4 +1,4 @@
-Problem 1: Force-Directed Graph
+Problem 1: Count Connections
 ===================
 
 By using wiki.wireshark.org/SampleCaptures?action=AttachFile&do=get&target=http.cap file, create a csv file. The format of the csv file shoud like the below:
