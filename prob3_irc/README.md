@@ -81,6 +81,7 @@ Messages may be seperated by "\r\n" in a packet's payload. And  every line's for
 ```python
 def _irc_dissect(obj, load):
 	s = load[:]
+    #get prefix (Optional):
 	if s[0] == ':':
 		space = s.find(' ')
 		if space == -1:	
@@ -88,19 +89,19 @@ def _irc_dissect(obj, load):
 		obj.setfieldval('Prefix', s[ : space])
 		s = s[space + 1 : ]
 	space = s.find(' ')
-
+    #get command:
 	if space == -1:
 		obj.setfieldval('Command', s.strip())
 		return ''
 	obj.setfieldval('Command', s[ : space])
 	s = s[space + 1 :]
-
+    #get parameter:
 	colon = s.find(':')
 	if colon == -1 :
 		obj.setfieldval('Parameter', s.strip())
 		return ''
 	obj.setfieldval('Parameter', s[ : colon])
-
+    #get trailer:
 	next_colon = s[colon + 1 :].find(':')
 	if next_colon == -1:
 		obj.setfieldval('Trailer', s[colon : ].strip())
