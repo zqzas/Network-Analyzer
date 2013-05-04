@@ -13,6 +13,8 @@ Basically, use http://bl.ocks.org/d3noob/5141278.
 
 But I modify the code to get arrows and edges with varied stroke-widths.
 
+My html: http://zqzas.com/soc/display.html
+
 
 
 
