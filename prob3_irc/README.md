@@ -73,7 +73,11 @@ And here is an example:
 ```
 
 ###Note: 
-Messages may be seperated by "\r\n" in a packet's payload. And  every line's format is same, so I could do it recursively, you may see do_dissect() above.
+Every message occupies a single line.
+
+Messages are normally seperated by "\r\n" in a packet's payload. 
+
+And every line's format is same, so I could do it recursively to handle all the lines, you may see do_dissect() above.
 
 
 
