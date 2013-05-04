@@ -11,7 +11,7 @@ My solution is based on d3.js.
 
 Basically, use http://bl.ocks.org/d3noob/5141278
 
-But I modify the code to get arrows and edges with varied stroke-widths.
+But I modify the code to get arrows and edges with varied stroke-widths which depend on d.value, namely the connection number.
 
 My html: http://zqzas.com/soc/display.html
 
