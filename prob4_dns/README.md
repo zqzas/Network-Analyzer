@@ -13,7 +13,7 @@ The packet list leads by some normal dns traffic.
 But later, some tcp traffic starts riding on port 53, which seems to be remote shell connections.
 
 Tricks:
-Some 802.11 and Logical-Link Control protocols are hidden in a few packets. 
+Some 802.11 and Logical-Link Control(LLC) protocols are hidden in a few packets. 
 I need to handle them if they can't be automatically detected by scapy.
 
 
