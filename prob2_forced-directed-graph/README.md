@@ -9,7 +9,7 @@ Approach:
 ----
 My solution is based on d3.js.
 
-Basically, use http://bl.ocks.org/d3noob/5141278.
+Basically, use http://bl.ocks.org/d3noob/5141278
 
 But I modify the code to get arrows and edges with varied stroke-widths.
 
