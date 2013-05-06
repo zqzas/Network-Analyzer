@@ -1,0 +1,2668 @@
+0000 Ether / ARP who has 192.168.1.1 says 192.168.1.3 / Padding
+0001 Ether / IP / UDP / DNS Qry "1.1.168.192.in-addr.arpa." 
+0002 Ether / ARP is at 00:90:d0:eb:46:e7 says 192.168.1.1
+0003 Ether / IP / UDP / DNS Ans "SpeedTouch.lan." 
+0004 00:0e:35:78:0c:02 > ff:ff:ff:ff:ff:ff (0x2452) / Raw
+0005 00:90:d0:eb:46:e7 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0006 Ether / IP / UDP / DNS Qry "www.www.com.lan." 
+0007 Ether / IP / UDP / DNS Ans 
+0008 Ether / IP / UDP / DNS Qry "www.www.com." 
+0009 Ether / IP / UDP / DNS Ans "63.215.91.200" 
+0010 Ether / ARP who has 192.168.1.2 says 192.168.1.3 / Padding
+0011 00:0e:35:78:0c:02 > ff:ff:ff:ff:ff:ff (0x2452) / Raw
+0012 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0013 Ether / IP / TCP 192.168.1.3:dvl_activemail > 192.168.1.2:domain S
+0014 Ether / ARP is at 00:80:48:24:33:32 says 192.168.1.2
+0015 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0016 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0017 Ether / IP / TCP 192.168.1.3:dvl_activemail > 192.168.1.2:domain A / Padding
+0018 Ether / IP / TCP 192.168.1.2:domain > 192.168.1.3:dvl_activemail SA
+0019 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0020 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0021 Ether / IP / TCP 192.168.1.2:domain > 192.168.1.3:dvl_activemail PA / IRCDetector / Raw
+0022 Ether / IP / TCP 192.168.1.3:dvl_activemail > 192.168.1.2:domain A / Padding
+0023 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0024 Ether / IP / TCP 192.168.1.3:dvl_activemail > 192.168.1.2:domain PA / IRCDetector / Raw / Padding
+0025 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0026 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0027 Ether / IP / TCP 192.168.1.2:domain > 192.168.1.3:dvl_activemail PA / Raw
+0028 Ether / IP / TCP 192.168.1.3:dvl_activemail > 192.168.1.2:domain A / Padding
+0029 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0030 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0031 Ether / IP / TCP 192.168.1.2:domain > 192.168.1.3:dvl_activemail PA / Raw
+0032 Ether / IP / TCP 192.168.1.3:dvl_activemail > 192.168.1.2:domain A / Padding
+0033 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0034 Ether / IP / TCP 192.168.1.3:dvl_activemail > 192.168.1.2:domain PA / IRCDetector / Raw / Padding
+0035 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0036 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0037 Ether / IP / TCP 192.168.1.2:domain > 192.168.1.3:dvl_activemail RA
+0038 Ether / IP / TCP 192.168.1.3:cadkey_licman > 192.168.1.2:ftp S
+0039 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0040 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0041 Ether / IP / TCP 192.168.1.2:ftp > 192.168.1.3:cadkey_licman RA
+0042 Ether / IP / TCP 192.168.1.3:cadkey_licman > 192.168.1.2:ftp S
+0043 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0044 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0045 Ether / IP / TCP 192.168.1.2:ftp > 192.168.1.3:cadkey_licman RA
+0046 00:90:d0:eb:46:e7 > 00:80:48:24:33:32 (0x2452) / Raw
+0047 00:90:d0:eb:46:e7 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0048 00:90:d0:eb:46:e7 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0049 Ether / IP / TCP 192.168.1.3:cadkey_licman > 192.168.1.2:ftp S
+0050 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0051 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0052 Ether / IP / TCP 192.168.1.2:ftp > 192.168.1.3:cadkey_licman RA
+0053 Ether / IP / TCP 192.168.1.3:prm_sm_np > 192.168.1.2:ftp S
+0054 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0055 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0056 Ether / IP / TCP 192.168.1.2:ftp > 192.168.1.3:prm_sm_np RA
+0057 Ether / IP / TCP 192.168.1.3:prm_sm_np > 192.168.1.2:ftp S
+0058 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0059 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0060 Ether / IP / TCP 192.168.1.2:ftp > 192.168.1.3:prm_sm_np RA
+0061 Ether / IP / TCP 192.168.1.3:prm_sm_np > 192.168.1.2:ftp S
+0062 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0063 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0064 Ether / IP / TCP 192.168.1.2:ftp > 192.168.1.3:prm_sm_np RA
+0065 00:90:d0:eb:46:e7 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0066 00:90:d0:eb:46:e7 > 00:80:48:24:33:32 (0x2452) / Raw
+0067 00:90:d0:eb:46:e7 > 00:80:48:24:33:32 (0x2452) / Raw
+0068 00:90:d0:eb:46:e7 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0069 00:90:d0:eb:46:e7 > 00:80:48:24:33:32 (0x2452) / Raw
+0070 00:90:d0:eb:46:e7 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0071 00:90:d0:eb:46:e7 > 00:80:48:24:33:32 (0x2452) / Raw
+0072 00:90:d0:eb:46:e7 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0073 00:90:d0:eb:46:e7 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0074 00:90:d0:eb:46:e7 > 00:80:48:24:33:32 (0x2452) / Raw
+0075 Ether / IP / TCP 192.168.1.3:prm_nm_np > 192.168.1.2:telnet S
+0076 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0077 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0078 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0079 Ether / IP / TCP 192.168.1.3:prm_nm_np > 192.168.1.2:telnet A / Padding
+0080 Ether / IP / TCP 192.168.1.2:telnet > 192.168.1.3:prm_nm_np SA
+0081 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0082 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0083 Ether / IP / TCP 192.168.1.2:telnet > 192.168.1.3:prm_nm_np PA / IRCDetector / Raw
+0084 Ether / IP / TCP 192.168.1.3:prm_nm_np > 192.168.1.2:telnet A / Padding
+0085 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0086 Ether / IP / TCP 192.168.1.3:prm_nm_np > 192.168.1.2:telnet PA / IRCDetector / Raw / Padding
+0087 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0088 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0089 Ether / IP / TCP 192.168.1.2:telnet > 192.168.1.3:prm_nm_np PA / Raw
+0090 Ether / IP / TCP 192.168.1.3:prm_nm_np > 192.168.1.2:telnet A / Padding
+0091 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0092 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0093 Ether / IP / TCP 192.168.1.2:telnet > 192.168.1.3:prm_nm_np PA / Raw
+0094 Ether / IP / TCP 192.168.1.3:prm_nm_np > 192.168.1.2:telnet A / Padding
+0095 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0096 Ether / IP / TCP 192.168.1.3:prm_nm_np > 192.168.1.2:telnet PA / IRCDetector / Raw
+0097 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0098 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0099 Ether / IP / TCP 192.168.1.2:telnet > 192.168.1.3:prm_nm_np PA / IRCDetector / Raw
+0100 Ether / IP / TCP 192.168.1.3:prm_nm_np > 192.168.1.2:telnet A / Padding
+0101 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0102 Ether / IP / TCP 192.168.1.3:prm_nm_np > 192.168.1.2:telnet PA / IRCDetector / Raw / Padding
+0103 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0104 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0105 Ether / IP / TCP 192.168.1.2:telnet > 192.168.1.3:prm_nm_np PA / Raw
+0106 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0107 Ether / IP / TCP 192.168.1.2:telnet > 192.168.1.3:prm_nm_np RA
+0108 Ether / IP / TCP 192.168.1.3:igi_lm > 192.168.1.2:http S
+0109 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0110 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0111 Ether / IP / TCP 192.168.1.3:igi_lm > 192.168.1.2:http A / Padding
+0112 Ether / IP / TCP 192.168.1.2:http > 192.168.1.3:igi_lm SA
+0113 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0114 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0115 Ether / IP / TCP 192.168.1.2:http > 192.168.1.3:igi_lm PA / IRCDetector / Raw
+0116 Ether / IP / TCP 192.168.1.3:igi_lm > 192.168.1.2:http A / Padding
+0117 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0118 Ether / IP / TCP 192.168.1.3:igi_lm > 192.168.1.2:http PA / IRCDetector / Raw / Padding
+0119 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0120 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0121 Ether / IP / TCP 192.168.1.2:http > 192.168.1.3:igi_lm PA / Raw
+0122 Ether / IP / TCP 192.168.1.3:igi_lm > 192.168.1.2:http A / Padding
+0123 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0124 Ether / IP / TCP 192.168.1.2:http > 192.168.1.3:igi_lm PA / Raw
+0125 Ether / IP / TCP 192.168.1.3:igi_lm > 192.168.1.2:http A / Padding
+0126 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0127 Ether / IP / TCP 192.168.1.3:igi_lm > 192.168.1.2:http PA / IRCDetector / Raw / Padding
+0128 00:0e:35:78:0c:02 > 00:80:48:24:33:32 (0x2452) / Raw
+0129 00:0e:35:78:0c:02 > 00:10:c6:30:6b:b3 (0x2452) / Raw
+0130 Ether / IP / TCP 192.168.1.2:http > 192.168.1.3:igi_lm RA
+
+-------------------- Packets Details: 
+
+###[ Ethernet ]###
+  dst       = ff:ff:ff:ff:ff:ff
+  src       = 00:0e:35:78:0c:02
+  type      = 0x806
+###[ ARP ]###
+     hwtype    = 0x1
+     ptype     = 0x800
+     hwlen     = 6
+     plen      = 4
+     op        = who-has
+     hwsrc     = 00:0e:35:78:0c:02
+     psrc      = 192.168.1.3
+     hwdst     = 00:00:00:00:00:00
+     pdst      = 192.168.1.1
+###[ Padding ]###
+        load      = '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:90:d0:eb:46:e7
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 70
+     id        = 5383
+     flags     = 
+     frag      = 0L
+     ttl       = 128
+     proto     = udp
+     chksum    = 0xa24b
+     src       = 192.168.1.3
+     dst       = 192.168.1.1
+     \options   \
+###[ UDP ]###
+        sport     = iclpv_nls
+        dport     = domain
+        len       = 50
+        chksum    = 0xea12
+###[ DNS ]###
+           id        = 1
+           qr        = 0L
+           opcode    = QUERY
+           aa        = 0L
+           tc        = 0L
+           rd        = 1L
+           ra        = 0L
+           z         = 0L
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]###
+            |  qname     = '1.1.168.192.in-addr.arpa.'
+            |  qtype     = PTR
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:90:d0:eb:46:e7
+  type      = 0x806
+###[ ARP ]###
+     hwtype    = 0x1
+     ptype     = 0x800
+     hwlen     = 6
+     plen      = 4
+     op        = is-at
+     hwsrc     = 00:90:d0:eb:46:e7
+     psrc      = 192.168.1.1
+     hwdst     = 00:0e:35:78:0c:02
+     pdst      = 192.168.1.3
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:90:d0:eb:46:e7
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 98
+     id        = 8363
+     flags     = 
+     frag      = 0L
+     ttl       = 64
+     proto     = udp
+     chksum    = 0xd68b
+     src       = 192.168.1.1
+     dst       = 192.168.1.3
+     \options   \
+###[ UDP ]###
+        sport     = domain
+        dport     = iclpv_nls
+        len       = 78
+        chksum    = 0xb8da
+###[ DNS ]###
+           id        = 1
+           qr        = 1L
+           opcode    = QUERY
+           aa        = 1L
+           tc        = 0L
+           rd        = 1L
+           ra        = 1L
+           z         = 0L
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 1
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]###
+            |  qname     = '1.1.168.192.in-addr.arpa.'
+            |  qtype     = PTR
+            |  qclass    = IN
+           \an        \
+            |###[ DNS Resource Record ]###
+            |  rrname    = '1.1.168.192.in-addr.arpa.'
+            |  type      = PTR
+            |  rclass    = IN
+            |  ttl       = 0
+            |  rdlen     = 15
+            |  rdata     = 'SpeedTouch.lan.'
+           ns        = None
+           ar        = None
+======================================================================
+###[ Ethernet ]###
+  dst       = ff:ff:ff:ff:ff:ff
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x00\x00\xff\xff\xff\xff\xff\xff\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02\xa0\x7f_\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x06\x00\x01\x08\x00\x06\x04\x00\x01\x00\x0e5x\x0c\x02\xc0\xa8\x01\x03\x00\x00\x00\x00\x00\x00\xc0\xa8\x01\x01 *J\x8e'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:90:d0:eb:46:e7
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x90\xd0\xebF\xe7\x90\x01f\x15\x83\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00*\x07\xb8@\x00@\x06\xe7=\xc0\xa8\x01\x02\x8cp\xfd\xbd\x04\x02XLS)5MQ\xb9\xb5\xafP\x18\xf9\x04\xf6\xf8\x00\x00\x87\xc6\xa2\xafS\x8a'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:90:d0:eb:46:e7
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 61
+     id        = 5384
+     flags     = 
+     frag      = 0L
+     ttl       = 128
+     proto     = udp
+     chksum    = 0xa253
+     src       = 192.168.1.3
+     dst       = 192.168.1.1
+     \options   \
+###[ UDP ]###
+        sport     = iclpv_nlc
+        dport     = domain
+        len       = 41
+        chksum    = 0xa615
+###[ DNS ]###
+           id        = 2
+           qr        = 0L
+           opcode    = QUERY
+           aa        = 0L
+           tc        = 0L
+           rd        = 1L
+           ra        = 0L
+           z         = 0L
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]###
+            |  qname     = 'www.www.com.lan.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:90:d0:eb:46:e7
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 61
+     id        = 8364
+     flags     = 
+     frag      = 0L
+     ttl       = 64
+     proto     = udp
+     chksum    = 0xd6af
+     src       = 192.168.1.1
+     dst       = 192.168.1.3
+     \options   \
+###[ UDP ]###
+        sport     = domain
+        dport     = iclpv_nlc
+        len       = 41
+        chksum    = 0x2595
+###[ DNS ]###
+           id        = 2
+           qr        = 1L
+           opcode    = QUERY
+           aa        = 0L
+           tc        = 0L
+           rd        = 1L
+           ra        = 1L
+           z         = 0L
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]###
+            |  qname     = 'www.www.com.lan.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:90:d0:eb:46:e7
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 57
+     id        = 5385
+     flags     = 
+     frag      = 0L
+     ttl       = 128
+     proto     = udp
+     chksum    = 0xa256
+     src       = 192.168.1.3
+     dst       = 192.168.1.1
+     \options   \
+###[ UDP ]###
+        sport     = iclpv_wsm
+        dport     = domain
+        len       = 37
+        chksum    = 0xaf6
+###[ DNS ]###
+           id        = 3
+           qr        = 0L
+           opcode    = QUERY
+           aa        = 0L
+           tc        = 0L
+           rd        = 1L
+           ra        = 0L
+           z         = 0L
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]###
+            |  qname     = 'www.www.com.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:90:d0:eb:46:e7
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 73
+     id        = 8366
+     flags     = 
+     frag      = 0L
+     ttl       = 64
+     proto     = udp
+     chksum    = 0xd6a1
+     src       = 192.168.1.1
+     dst       = 192.168.1.3
+     \options   \
+###[ UDP ]###
+        sport     = domain
+        dport     = iclpv_wsm
+        len       = 53
+        chksum    = 0xcff1
+###[ DNS ]###
+           id        = 3
+           qr        = 1L
+           opcode    = QUERY
+           aa        = 0L
+           tc        = 0L
+           rd        = 1L
+           ra        = 1L
+           z         = 0L
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 1
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]###
+            |  qname     = 'www.www.com.'
+            |  qtype     = A
+            |  qclass    = IN
+           \an        \
+            |###[ DNS Resource Record ]###
+            |  rrname    = 'www.www.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 1800
+            |  rdlen     = 4
+            |  rdata     = '63.215.91.200'
+           ns        = None
+           ar        = None
+======================================================================
+###[ Ethernet ]###
+  dst       = ff:ff:ff:ff:ff:ff
+  src       = 00:0e:35:78:0c:02
+  type      = 0x806
+###[ ARP ]###
+     hwtype    = 0x1
+     ptype     = 0x800
+     hwlen     = 6
+     plen      = 4
+     op        = who-has
+     hwsrc     = 00:0e:35:78:0c:02
+     psrc      = 192.168.1.3
+     hwdst     = 00:00:00:00:00:00
+     pdst      = 192.168.1.2
+###[ Padding ]###
+        load      = '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = ff:ff:ff:ff:ff:ff
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x00\x00\xff\xff\xff\xff\xff\xff\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02`\x90q\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x06\x00\x01\x08\x00\x06\x04\x00\x01\x00\x0e5x\x0c\x02\xc0\xa8\x01\x03\x00\x00\x00\x00\x00\x00\xc0\xa8\x01\x02\x9a{C\x17'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02`\x03\xe4\x08\xf7\x00\xaa\xaa\x03\x00\x00\x00\x08\x06\x00\x01\x08\x00\x06\x04\x00\x02\x00\x80H$32\xc0\xa8\x01\x02\x00\x0e5x\x0c\x02\xc0\xa8\x01\x03F\x1fKU'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 48
+     id        = 5386
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x6268
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = dvl_activemail
+        dport     = domain
+        seq       = 600126399
+        ack       = 0
+        dataofs   = 7L
+        reserved  = 0L
+        flags     = S
+        window    = 16384
+        chksum    = 0x629c
+        urgptr    = 0
+        options   = [('MSS', 1460), ('NOP', None), ('NOP', None), ('SAckOK', '')]
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x806
+###[ ARP ]###
+     hwtype    = 0x1
+     ptype     = 0x800
+     hwlen     = 6
+     plen      = 4
+     op        = is-at
+     hwsrc     = 00:80:48:24:33:32
+     psrc      = 192.168.1.2
+     hwdst     = 00:0e:35:78:0c:02
+     pdst      = 192.168.1.3
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02\x80\x90s\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x000\x15\n@\x00\x80\x06bh\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05t\x005#\xc53\xbf\x00\x00\x00\x00p\x02@\x00b\x9c\x00\x00\x02\x04\x05\xb4\x01\x01\x04\x02`\xba_\x93'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02p\x03\xb2\x18\xf7\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x000\x07\xcc@\x00@\x06\xaf\xa6\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x005\x05t\xbd\x0f/\xec#\xc53\xc0p\x12\xff\xff\xb5\x97\x00\x00\x02\x04\x05\xac\x01\x01\x04\x02\xcd\xa6\x86\x98'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 5387
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x626f
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = dvl_activemail
+        dport     = domain
+        seq       = 600126400
+        ack       = 3171889133
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = A
+        window    = 17424
+        chksum    = 0x9e43
+        urgptr    = 0
+        options   = {}
+###[ Padding ]###
+           load      = '\x00\x00\x00\x00\x00\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 48
+     id        = 1996
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xafa6
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = domain
+        dport     = dvl_activemail
+        seq       = 3171889132
+        ack       = 600126400
+        dataofs   = 7L
+        reserved  = 0L
+        flags     = SA
+        window    = 65535
+        chksum    = 0xb597
+        urgptr    = 0
+        options   = [('MSS', 1452), ('NOP', None), ('NOP', None), ('SAckOK', '')]
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02\xa0\x90u\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x15\x0b@\x00\x80\x06bo\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05t\x005#\xc53\xc0\xbd\x0f/\xedP\x10D\x10\x9eC\x00\x00\x92\xb4Af'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02\x80\x03\xda\xfc\xf7\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00\x80\x07\xcd@\x00@\x06\xafU\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x005\x05t\xbd\x0f/\xed#\xc53\xc0P\x18\xff\xffN\x14\x00\x00Microsoft Windows XP [Version 5.1.2600]\r\n(C) Copyright 1985-2001 Microsoft Corp.\r\n\r\nC:\\>a\x1ek\xb9'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 128
+     id        = 1997
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xaf55
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = domain
+        dport     = dvl_activemail
+        seq       = 3171889133
+        ack       = 600126400
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 65535
+        chksum    = 0x4e14
+        urgptr    = 0
+        options   = []
+###[ IRC Detector ]###
+###[ Raw ]###
+              load      = 'Microsoft Windows XP [Version 5.1.2600]\r\n(C) Copyright 1985-2001 Microsoft Corp.\r\n\r\nC:\\>'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 5388
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x626e
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = dvl_activemail
+        dport     = domain
+        seq       = 600126400
+        ack       = 3171889221
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = A
+        window    = 17336
+        chksum    = 0x9e43
+        urgptr    = 0
+        options   = {}
+###[ Padding ]###
+           load      = '\x00\x00\x00\x00\x00\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02\xe0\x90w\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x15\x0c@\x00\x80\x06bn\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05t\x005#\xc53\xc0\xbd\x0f0EP\x10C\xb8\x9eC\x00\x00s\x1e\x84\xd2'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 44
+     id        = 5389
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x6269
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = dvl_activemail
+        dport     = domain
+        seq       = 600126400
+        ack       = 3171889221
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 17336
+        chksum    = 0xc7c3
+        urgptr    = 0
+        options   = []
+###[ IRC Detector ]###
+###[ Raw ]###
+              load      = 'dir\n'
+###[ Padding ]###
+                 load      = '\x00\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02@\x92x\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00,\x15\r@\x00\x80\x06bi\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05t\x005#\xc53\xc0\xbd\x0f0EP\x18C\xb8\xc7\xc3\x00\x00dir\n\x1e\x86\x8e\xd7'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02\x90\x036\x8b\x1b\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00\xf1\x07\xce@\x00@\x06\xae\xe3\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x005\x05t\xbd\x0f0E#\xc53\xc4P\x18\xff\xfbO;\x00\x00dir\r\n Volume in drive C has no label.\r\n Volume Serial Number is FF47-80EB\r\n\r\n Directory of C:\\\r\n\r\n01/12/2005  11:59 AM                 0 aierrorlog.txt\r\n01/19/2004  09:45 PM                 0 AUTOEXEC.5\x1cs,'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 241
+     id        = 1998
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xaee3
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = domain
+        dport     = dvl_activemail
+        seq       = 3171889221
+        ack       = 600126404
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 65531
+        chksum    = 0x4f3b
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'dir\r\n Volume in drive C has no label.\r\n Volume Serial Number is FF47-80EB\r\n\r\n Directory of C:\\\r\n\r\n01/12/2005  11:59 AM                 0 aierrorlog.txt\r\n01/19/2004  09:45 PM                 0 AUTOEXEC.'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 5390
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x626c
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = dvl_activemail
+        dport     = domain
+        seq       = 600126404
+        ack       = 3171889422
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = A
+        window    = 17135
+        chksum    = 0x9e3f
+        urgptr    = 0
+        options   = {}
+###[ Padding ]###
+           load      = '\x00\x00\x00\x00\x00\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02p\x92z\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x15\x0e@\x00\x80\x06bl\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05t\x005#\xc53\xc4\xbd\x0f1\x0eP\x10B\xef\x9e?\x00\x00\xd2H\xfe?'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02\xa0\x03(\x9c\x1d\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x04\x1b\x07\xcf@\x00@\x06\xab\xb8\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x005\x05t\xbd\x0f1\x0e#\xc53\xc4P\x18\xff\xfb\x1dE\x00\x00BAT\r\n01/19/2004  09:45 PM                 0 CONFIG.SYS\r\n06/26/2004  12:12 PM    <DIR>          Documents and Settings\r\n02/03/2005  11:40 PM    <DIR>          EasyBoot\r\n02/29/2004  02:51 PM            11,531 installer-debug.txt\r\n12/19/2004  12:50 AM    <DIR>          mga\r\n12/19/2004  12:51 AM    <DIR>          mgafold\r\n11/24/2004  07:47 PM    <DIR>          mnt\r\n10/07/2004  10:01 AM    <DIR>          movie\r\n06/26/2004  01:03 PM    <DIR>          My Downloads\r\n01/13/2005  10:52 PM    <DIR>          Program Files\r\n01/04/2005  10:27 AM    <DIR>          quarantine\r\n04/19/2004  09:57 PM             7,241 s37g\r\n10/31/2004  08:36 PM                 0 s3fs\r\n06/02/2004  08:54 PM               123 systemscandata.txt\r\n08/08/2004  10:48 AM    <DIR>          Temp\r\n12/12/2004  02:24 PM        94,135,944 temp.mpg\r\n01/13/2005  06:10 PM    <DIR>          WINDOWS\r\n11/20/2004  09:27 AM    <DIR>          WUTemp\r\n               8 File(s)     94,154,839 bytes\r\n              12 Dir(s)   7,145,897,984 bytes free\r\n\r\nC:\\>\xcas\xacX'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 1051
+     id        = 1999
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xabb8
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = domain
+        dport     = dvl_activemail
+        seq       = 3171889422
+        ack       = 600126404
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 65531
+        chksum    = 0x1d45
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'BAT\r\n01/19/2004  09:45 PM                 0 CONFIG.SYS\r\n06/26/2004  12:12 PM    <DIR>          Documents and Settings\r\n02/03/2005  11:40 PM    <DIR>          EasyBoot\r\n02/29/2004  02:51 PM            11,531 installer-debug.txt\r\n12/19/2004  12:50 AM    <DIR>          mga\r\n12/19/2004  12:51 AM    <DIR>          mgafold\r\n11/24/2004  07:47 PM    <DIR>          mnt\r\n10/07/2004  10:01 AM    <DIR>          movie\r\n06/26/2004  01:03 PM    <DIR>          My Downloads\r\n01/13/2005  10:52 PM    <DIR>          Program Files\r\n01/04/2005  10:27 AM    <DIR>          quarantine\r\n04/19/2004  09:57 PM             7,241 s37g\r\n10/31/2004  08:36 PM                 0 s3fs\r\n06/02/2004  08:54 PM               123 systemscandata.txt\r\n08/08/2004  10:48 AM    <DIR>          Temp\r\n12/12/2004  02:24 PM        94,135,944 temp.mpg\r\n01/13/2005  06:10 PM    <DIR>          WINDOWS\r\n11/20/2004  09:27 AM    <DIR>          WUTemp\r\n               8 File(s)     94,154,839 bytes\r\n              12 Dir(s)   7,145,897,984 bytes free\r\n\r\nC:\\>'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 5391
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x626b
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = dvl_activemail
+        dport     = domain
+        seq       = 600126404
+        ack       = 3171890433
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = A
+        window    = 16124
+        chksum    = 0x9e3f
+        urgptr    = 0
+        options   = {}
+###[ Padding ]###
+           load      = '\x00\x00\x00\x00\x00\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02\xb0\x92|\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x15\x0f@\x00\x80\x06bk\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05t\x005#\xc53\xc4\xbd\x0f5\x01P\x10>\xfc\x9e?\x00\x00\xe4\x19\xf4\x8f'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 45
+     id        = 5392
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x6265
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = dvl_activemail
+        dport     = domain
+        seq       = 600126404
+        ack       = 3171890433
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 16124
+        chksum    = 0xc545
+        urgptr    = 0
+        options   = []
+###[ IRC Detector ]###
+###[ Raw ]###
+              load      = 'exit\n'
+###[ Padding ]###
+                 load      = '\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02p\x94}\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00-\x15\x10@\x00\x80\x06be\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05t\x005#\xc53\xc4\xbd\x0f5\x01P\x18>\xfc\xc5E\x00\x00exit\n\x19\xa5x\xf8'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02\xb0\x03\x83\x16H\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x07\xd0@\x00@\x06\xaf\xaa\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x005\x05t\xbd\x0f5\x01#\xc53\xc9P\x14\x00\x00\xdd2\x00\x00\xc7\xce\xc6n'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 2000
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xafaa
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = domain
+        dport     = dvl_activemail
+        seq       = 3171890433
+        ack       = 600126409
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = RA
+        window    = 0
+        chksum    = 0xdd32
+        urgptr    = 0
+        options   = {}
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 48
+     id        = 5396
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x625e
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = cadkey_licman
+        dport     = ftp
+        seq       = 1345391188
+        ack       = 0
+        dataofs   = 7L
+        reserved  = 0L
+        flags     = S
+        window    = 16384
+        chksum    = 0x5fb8
+        urgptr    = 0
+        options   = [('MSS', 1460), ('NOP', None), ('NOP', None), ('SAckOK', '')]
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02\xf0\x9f\x80\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x000\x15\x14@\x00\x80\x06b^\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05w\x00\x15P1\nT\x00\x00\x00\x00p\x02@\x00_\xb8\x00\x00\x02\x04\x05\xb4\x01\x01\x04\x02!H3\xfa'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02\xd0\x03\x07\xfcU\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x07\xd3\x00\x00@\x06\xef\xa7\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00\x15\x05w\x00\x00\x00\x00P1\nUP\x14\x00\x00\xcch\x00\x00\xfd-d\xdd'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 2003
+     flags     = 
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xefa7
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = ftp
+        dport     = cadkey_licman
+        seq       = 0
+        ack       = 1345391189
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = RA
+        window    = 0
+        chksum    = 0xcc68
+        urgptr    = 0
+        options   = {}
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 48
+     id        = 5397
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x625d
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = cadkey_licman
+        dport     = ftp
+        seq       = 1345391188
+        ack       = 0
+        dataofs   = 7L
+        reserved  = 0L
+        flags     = S
+        window    = 16384
+        chksum    = 0x5fb8
+        urgptr    = 0
+        options   = [('MSS', 1460), ('NOP', None), ('NOP', None), ('SAckOK', '')]
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02`\xa0\x83\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x000\x15\x15@\x00\x80\x06b]\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05w\x00\x15P1\nT\x00\x00\x00\x00p\x02@\x00_\xb8\x00\x00\x02\x04\x05\xb4\x01\x01\x04\x02\xba\x81A\xe7'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02\x00\x04\xa9\xc6\\\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x07\xd7\x00\x00@\x06\xef\xa3\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00\x15\x05w\x00\x00\x00\x00P1\nUP\x14\x00\x00\xcch\x00\x00\x8e\x1c\x90\x02'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 2007
+     flags     = 
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xefa3
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = ftp
+        dport     = cadkey_licman
+        seq       = 0
+        ack       = 1345391189
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = RA
+        window    = 0
+        chksum    = 0xcc68
+        urgptr    = 0
+        options   = {}
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:90:d0:eb:46:e7
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x90\xd0\xebF\xe7\x90\xa0\x85\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00\xba\x92\xe8@\x00m\x06a\xfc\xcd\xe3\x88\xcb\xc0\xa8\x01\x02\x01\xbb\x04U\xccX\x86\x1e\xd35\xca\xc4P\x18\xfa\x8a\x84\xe7\x00\x00\x16\x03\x00\x00J\x02\x00\x00F\x03\x00A\xe7%\x88\xc1\xf2]\xf8\xcb\xd5l\x87A\xd3\xfe-?\xfc\x1d\xad\xce\x96\x92f\x1f\xec\xfce\xb4\x08,? 9\x07\x00\x00\xd43\xf3\xfc\xbd\xb0\xfd\x0bf\x96\x8b\xf9\xbd\xc9\x84l\x0e\x80\xba0\xe9\xd6\x1a\x1fh.\x90u\x00\x04\x00\x14\x03\x00\x00\x01\x01\x16\x03\x00\x0088zc\xe2\n\xf9{.F\x1c\x10\xd3`\x91[fS\x08\xfd\x8aF\xea(G\xf7\x86\xc5 "\x7f\x16,"\n\xaf3\xab\xdeWRv\xa0\xb2\xfe\x0f\x1c\xf8GN\xacl?d\x0f\xb4\xac\x14m\xd2\xe3'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:90:d0:eb:46:e7
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x90\xd0\xebF\xe7\x10\x04\xee\x06]\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00k\x07\xd8@\x00@\x06\x1a\\\xc0\xa8\x01\x02\xcd\xe3\x88\xcb\x04U\x01\xbb\xd35\xca\xc4\xccX\x86\xb0P\x18\xf9k`\xed\x00\x00\x14\x03\x00\x00\x01\x01\x16\x03\x00\x008\xf5\xe1\x1cO\x86\xee\x00\xf9&\x94\x08\xc8\x8b\xe1z\xd2v\xdd\xff\xaf\x13U:\x05c\x12\xdb\x1e\xa2AL\xa9{=\x18^F#HQ<P\xa9T\xdb!\xb9\x89:\xd0\xe0N\xac\x1c\x97\x19\x8d\x98\x04\\'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:90:d0:eb:46:e7
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x90\xd0\xebF\xe7 \x04\x8c\r]\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x02\xca\x07\xd9@\x00@\x06\x17\xfc\xc0\xa8\x01\x02\xcd\xe3\x88\xcb\x04U\x01\xbb\xd35\xcb\x07\xccX\x86\xb0P\x18\xf9kc\xdf\x00\x00\x17\x03\x00\x02\x9d\xaf\x87\xcc\xce8\xf0\xaa\x19\x1c\x89\x17\xa6f\x1593\x0b|\xe4\xc2zo\xc9FL\x8b\x8c\x902\xc6\x93}\x83R\x8a\xaf-\x98|\xff\x924\x0bG\x06*\xa7k\x07\xa3\xef\xb0uQ\xaa(^E\xaf\x02\xc3\x05\x9c\x83\x0b"\x03\xa5\xe2\x1c\x95\xec\xb2\xb2A\xa4*\xbcx\xdf\xa7\xac\x03\x0b\x1d+\xfcS\xbc,\xe6\x9b\xddze\xefa\xbc\xb1\x8c\xeb\xdaa\xf7ir+\xfd>\x94\x15\xa4\xbb\x16\xe0\xf0f\xd2;\r#\xdb\x05\x9d\xcbM\x82\x8dC3`:\x96\x04\x0b\xff\xfc\xf0*\x86b"\x9bK\xe4\x85\xcf\t\x91\xf47p-]\xcb\t$rK\x05\x1b\xea\xd8\xf0\x8a\xca\xed\xdc\xee|]-oS\xe25\xfb\xa2\xba{\x80\xd7\xe6\xad\xb11{\x88Pro-JS\x95\x91\x97\x87\x1f\x0b\xd8f\xe2i\xe6\xae\xbf\x00F{v\xe6\xa1\x96\xe9-\xaa\x91W\xb9\xa8J8y\x02\xde\x85\x92\xbf\xce\x8f\xbb$\xfd\x0f\xa4dHw\x90S4\xf9\x13\xaea\x0bW\xdfQ\x9a:\x86\x8a\xbe*BD\xf2\x02\xe5\xd2\xf0\x1fE\xf4\'Nq\x9eIT\xcfu\xfeoT_\xact\xa2<;\xf6\x8eg\xaa\x91\xce\x04\x9c B\x96\xfe\xec\x17xC\xf6\x94\xb5iE\xfb\x99r\xa0I\xdbG\x87\x00\xda\xed\xc7\x97V\xa4J\xca\xfa\x7f\x8769\x90\xbfa\xb6G\xc9\xea\xbfd\xdd;\x7f\x9b",\xd8\x9cW\xa2\xe5\xca\x98_\xc7\xa8\tQ dR\xdc:d\x1b\xce h\x8c\xab\x0c`\xe4\xe5h\xfc\x821_+Xzh\x00s\xf2$\xa4>\xb1\x9f\xd31\x07\xe3i\x9ed\xd8\xa8\xad\x04\x04m\xf6gjg%a%0\xe9\xdcm\xbb\x03\xcd\xe2\x1d&\xeav\x9a\xbf\xcf\xbf\x1a}\xdb\xa6\x98:m\x9fK\r-\xf7e\xeb\xd1\xc0T{\x85EC\x1d~\xc3\x93\x0b\xe9\x19m\x0e\x16E\xbd\xa26u\xdd\xf4W\x18B\xe5!Rh\xafC&7\x82\x1a5\xda\xfd)l\xb2\xb5n&\xad\xb6\xc1]\x1e\xff\xce\x062&k#\x7f;\x02\x9c\xa1\xc4\x16\xeb\x0b\x8e\x7fu*\x8d\xc1\x97\xba\x03\x88\xa3\xa1jEe\x12\xcaX\x02 N+\xa2,|1\n\xf4q\xe5q\xa1\x93Y\xee\x8e\xc2\x1f\xee\xc1\xe2\x8ea6\xe7\x8b\x87N6\x8f%\xac2\xc2I\x15\x1f\xc7m\x12\x06$\xefg\xf2e/\x14\xbb\xa3\x07g)\x8f\x86t\x9f\xfex;`>\xb6\xa1\xb7\xcd\xe8;;I\xe0\x97t\xf258\x90\xc8`\x16\xa3\x8f<,\xe6\xefX\x10_\x19\x1b\r\xa2\xa9\n\xf0>\xf1\xc1X6\r\xfcx\x8dw\xe09\rn\xe0\xac\xc8\x19\x0b\xd7\x13)\xa8\xf4L\x05\xb7\x9d^\x8e,5\x87\xbe\xb9\xfb\xb5Lgc\xe0\x90\xc6\xc7j+\xdfP\xb2`\x9dzk,'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 48
+     id        = 5398
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x625c
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = cadkey_licman
+        dport     = ftp
+        seq       = 1345391188
+        ack       = 0
+        dataofs   = 7L
+        reserved  = 0L
+        flags     = S
+        window    = 16384
+        chksum    = 0x5fb8
+        urgptr    = 0
+        options   = [('MSS', 1460), ('NOP', None), ('NOP', None), ('SAckOK', '')]
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02\xf0\xa0\x87\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x000\x15\x16@\x00\x80\x06b\\\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05w\x00\x15P1\nT\x00\x00\x00\x00p\x02@\x00_\xb8\x00\x00\x02\x04\x05\xb4\x01\x01\x04\x02\xa8\x8d\x85\xae'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x020\x04r\x96d\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x07\xdb\x00\x00@\x06\xef\x9f\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00\x15\x05w\x00\x00\x00\x00P1\nUP\x14\x00\x00\xcch\x00\x00\x14\xd8\xd5\xe9'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 2011
+     flags     = 
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xef9f
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = ftp
+        dport     = cadkey_licman
+        seq       = 0
+        ack       = 1345391189
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = RA
+        window    = 0
+        chksum    = 0xcc68
+        urgptr    = 0
+        options   = {}
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 48
+     id        = 5403
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x6257
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = prm_sm_np
+        dport     = ftp
+        seq       = 3856867451
+        ack       = 0
+        dataofs   = 7L
+        reserved  = 0L
+        flags     = S
+        window    = 16384
+        chksum    = 0xb3db
+        urgptr    = 0
+        options   = [('MSS', 1460), ('NOP', None), ('NOP', None), ('SAckOK', '')]
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02\xd0\xa3\x8b\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x000\x15\x1b@\x00\x80\x06bW\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05z\x00\x15\xe5\xe3 {\x00\x00\x00\x00p\x02@\x00\xb3\xdb\x00\x00\x02\x04\x05\xb4\x01\x01\x04\x020\xb7I\xb6'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02`\x04\xd7\x81\xa5\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x07\xdf\x00\x00@\x06\xef\x9b\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00\x15\x05z\x00\x00\x00\x00\xe5\xe3 |P\x14\x00\x00 \x8c\x00\x00\xe6\x14\x8e\xdb'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 2015
+     flags     = 
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xef9b
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = ftp
+        dport     = prm_sm_np
+        seq       = 0
+        ack       = 3856867452
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = RA
+        window    = 0
+        chksum    = 0x208c
+        urgptr    = 0
+        options   = {}
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 48
+     id        = 5404
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x6256
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = prm_sm_np
+        dport     = ftp
+        seq       = 3856867451
+        ack       = 0
+        dataofs   = 7L
+        reserved  = 0L
+        flags     = S
+        window    = 16384
+        chksum    = 0xb3db
+        urgptr    = 0
+        options   = [('MSS', 1460), ('NOP', None), ('NOP', None), ('SAckOK', '')]
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x020\xa4\x8d\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x000\x15\x1c@\x00\x80\x06bV\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05z\x00\x15\xe5\xe3 {\x00\x00\x00\x00p\x02@\x00\xb3\xdb\x00\x00\x02\x04\x05\xb4\x01\x01\x04\x02\x8ff\xb38'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02p\x04[k\xac\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x07\xe0\x00\x00@\x06\xef\x9a\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00\x15\x05z\x00\x00\x00\x00\xe5\xe3 |P\x14\x00\x00 \x8c\x00\x00\xa1\xcd\x8b\xa1'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 2016
+     flags     = 
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xef9a
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = ftp
+        dport     = prm_sm_np
+        seq       = 0
+        ack       = 3856867452
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = RA
+        window    = 0
+        chksum    = 0x208c
+        urgptr    = 0
+        options   = {}
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 48
+     id        = 5405
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x6255
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = prm_sm_np
+        dport     = ftp
+        seq       = 3856867451
+        ack       = 0
+        dataofs   = 7L
+        reserved  = 0L
+        flags     = S
+        window    = 16384
+        chksum    = 0xb3db
+        urgptr    = 0
+        options   = [('MSS', 1460), ('NOP', None), ('NOP', None), ('SAckOK', '')]
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02\xa0\xa4\x8f\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x000\x15\x1d@\x00\x80\x06bU\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05z\x00\x15\xe5\xe3 {\x00\x00\x00\x00p\x02@\x00\xb3\xdb\x00\x00\x02\x04\x05\xb4\x01\x01\x04\x02\x14\xaf\xc1%'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02\x80\x041\x10\xb4\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x07\xe1\x00\x00@\x06\xef\x99\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00\x15\x05z\x00\x00\x00\x00\xe5\xe3 |P\x14\x00\x00 \x8c\x00\x00\x05\xb1\x1d\xcb'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 2017
+     flags     = 
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xef99
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = ftp
+        dport     = prm_sm_np
+        seq       = 0
+        ack       = 3856867452
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = RA
+        window    = 0
+        chksum    = 0x208c
+        urgptr    = 0
+        options   = {}
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:90:d0:eb:46:e7
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x90\xd0\xebF\xe7\xa0\x05\xb1\x7f\xcd\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x07\xe8@\x00@\x06\xd1\xe1\xc0\xa8\x01\x02S\xaaK\xb2\x04T\x00P\xc0\x1d,\x93Z%o\xc9P\x10\xff\xff\x93\x8a\x00\x00\x8a\xd93\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:90:d0:eb:46:e7
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x90\xd0\xebF\xe7\x80\xb0\x96\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x05\xd4\xd0\xbd\x00\x00;\x06H`S\xaaK\xb2\xc0\xa8\x01\x02\x00P\x04TZ%o\xc9\xc0\x1d,\x93P\x10\xff\xffD\x9c\x00\x00\n    <td class=upd>updated every min., don\'t refresh</td>\r\n    <!--7day-->\r\n    <form name=hstF>\r\n    <td align=right>\r\n    previous results on&nbsp;\r\n    <select name=hstS onChange="javascript:hst()" size=1>\r\n    <option value=-7>06-01-05\n<option value=-6>07-01-05\n<option value=-5>08-01-05\n<option value=-4>09-01-05\n<option value=-3>10-01-05\n<option value=-2>11-01-05\n<option value=-1>12-01-05\n<option value=0 selected>13-01-05\n    </select>\r\n    </td>\r\n    </form>\r\n    <!--/7day-->\r\n  </tr>\r\n</table>\r\n\r\n<table border=0 width=380 class=tbl><tr><td></td><td align=right>January 13</td></tr></table>\n<table border=0 cellpadding=3 cellspacing=0 bordercolor=\'#cccccc\' class=tbl width=380>\n<tr class=cmp>\n<td>&nbsp;&nbsp;Efes Pilsen Cup</td>\n<td align=right>&nbsp;</td>\n</tr>\n<tr><td colspan=6 height=10><spacer height=10 type=block></td></tr>\n</table>\n<table border=1 cellpadding=2 cellspacing=0 bordercolor=\'#cccccc\' class=tbl width=380>\n\n<tr align=center>\n<td width=30>19:00</td>\n<td width=25><span id=ss5><span class=bk>AET</span></span><img src="/images/empty.gif" name=im5 width=2 height=9></td>\n<td width=110 align=right class=gm1>Malmo FF</td>\n<td width=50 id=res5 class=gm1><a target=goals href=\'goals.php?f=5\' onclick=\'javascript:goals()\' class=res>2 : 1</a></td>\n<td width=110 align=left class=gm1>Spartak</td>\n<td width=55 class=rd id=det5><a href=\'http://www.betrescue.com/free_bet.shtml\' target=_blank class=h2h>Free Bet</a></td>\n</tr>\n\n</;\xd8=c'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:90:d0:eb:46:e7
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x90\xd0\xebF\xe7\x90\xb0\x97\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x05\xd4\xd0\xbe\x00\x00;\x06H_S\xaaK\xb2\xc0\xa8\x01\x02\x00P\x04TZ%uu\xc0\x1d,\x93P\x10\xff\xff\xdeQ\x00\x00table>\n<br>\n<table border=0 cellpadding=3 cellspacing=0 bordercolor=\'#cccccc\' class=tbl width=380>\n<tr class=cmp>\n<td>&nbsp;&nbsp;ITALY: National Cup</td>\n<td align=right>&nbsp;</td>\n</tr>\n<tr><td colspan=6 height=10><spacer height=10 type=block></td></tr>\n</table>\n<table border=1 cellpadding=2 cellspacing=0 bordercolor=\'#cccccc\' class=tbl width=380>\n\n<tr align=center>\n<td width=30>15:00</td>\n<td width=25><span id=ss1><span class=bk>AET</span></span><img src="/images/empty.gif" name=im1 width=2 height=9></td>\n<td width=110 align=right class=gm1>Lazio</td>\n<td width=50 id=res1 class=gm1><a target=goals href=\'goals.php?f=1\' onclick=\'javascript:goals()\' class=res>3 : 2</a></td>\n<td width=110 align=left class=gm1>Cagliari</td>\n<td width=55 class=rd id=det1><a href=\'http://www.betrescue.com/free_bet.shtml\' target=_blank class=h2h>Free Bet</a></td>\n</tr>\n\n\n<tr align=center>\n<td width=30>15:00</td>\n<td width=25><span id=ss2><span class=bk>FT</span></span><img src="/images/empty.gif" name=im2 width=2 height=9></td>\n<td width=110 align=right class=gm2>Udinese</td>\n<td width=50 id=res2 class=gm2><a target=goals href=\'goals.php?f=2\' onclick=\'javascript:goals()\' class=res>3 : 4</a></td>\n<td width=110 align=left class=gm2>Lecce</td>\n<td width=55 class=rd id=det2><a href=\'http://www.betrescue.com/free_bet.shtml\' target=_blank class=h2h>Free Bet</a></td>\n</tr>\n\n\n<tr align=center>\n<td width=30>17:30</td>\n<td width=25><span id=ss3><span class=bk\xf2/`s'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:90:d0:eb:46:e7
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x90\xd0\xebF\xe7\xb0\x05E\x9f\xcd\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x07\xea@\x00@\x06\xd1\xdf\xc0\xa8\x01\x02S\xaaK\xb2\x04T\x00P\xc0\x1d,\x93Z%{!P\x10\xff\xff\x882\x00\x00y\t\x15\xc8'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:90:d0:eb:46:e7
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x90\xd0\xebF\xe7\xb0\xb0\x98\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x008\xd1&\x00\x00;\x06M\x93S\xaaK\xb2\xc0\xa8\x01\x02\x00P\x04TZ%{!\xc0\x1d,\x93P\x18\xff\xff\xd6v\x00\x00>FT</span></spanB$\x80\xd7'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:90:d0:eb:46:e7
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x90\xd0\xebF\xe7\xc0\x05\x9c.\xce\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x004\x07\xec@\x00@\x06\xd1\xd1\xc0\xa8\x01\x02S\xaaK\xb2\x04V\x00P\x86\x13\xb0\xec\x00\x00\x00\x00\x80\x02\xff\xff\xd2q\x00\x00\x02\x04\x05\xac\x01\x03\x03\x02\x01\x01\x04\x02:\xf5G\xaf'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:90:d0:eb:46:e7
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x90\xd0\xebF\xe7\xc0\xb0\x99\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00,,\xa9\x00\x00\xfa\x063\x1cS\xaaK\xb2\xc0\xa8\x01\x02\x00P\x04V\x8b\xe9\xa4\xa1\x86\x13\xb0\xed`\x12\x1f\xfe\xaa\xe7\x00\x00\x02\x04\x05\xacz/\xde\xb2'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:90:d0:eb:46:e7
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x90\xd0\xebF\xe7\xd0\x05\xfbR\xce\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x07\xee@\x00@\x06\xd1\xdb\xc0\xa8\x01\x02S\xaaK\xb2\x04V\x00P\x86\x13\xb0\xed\x8b\xe9\xa4\xa2P\x10\xff\xff\xe2\x9a\x00\x00\xc2\xbfwb'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:90:d0:eb:46:e7
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x90\xd0\xebF\xe7\xe0\x05\xddW\xce\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x01\xb0\x07\xef@\x00@\x06\xd0R\xc0\xa8\x01\x02S\xaaK\xb2\x04V\x00P\x86\x13\xb0\xed\x8b\xe9\xa4\xa2P\x18\xff\xff\x95\xb4\x00\x00GET /images/empty.gif HTTP/1.1\r\nAccept: */*\r\nReferer: http://www.goals365.com/livescore.html\r\nAccept-Language: en-us\r\nAccept-Encoding: gzip, deflate\r\nIf-Modified-Since: Mon, 01 Mar 2004 15:07:14 GMT\r\nIf-None-Match: "780ed-0-345e2c80"\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705; .NET CLR 1.1.4322)\r\nHost: www.goals365.com\r\nConnection: Keep-Alive\r\n\r\nyR,\x9c'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:90:d0:eb:46:e7
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x90\xd0\xebF\xe7\xd0\xb0\x9a\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x01i\x0ci\x00\x00;\x06\x11 S\xaaK\xb2\xc0\xa8\x01\x02\x00P\x04V\x8b\xe9\xa4\xa2\x86\x13\xb2uP\x18\xff\xff\xf5V\x00\x00HTTP/1.1 304 Not Modified\r\nConnection: Keep-Alive\r\nDate: Fri, 14 Jan 2005 01:54:22 GMT\r\nServer: Apache/2.0.51 (Fedora)\r\nLast-Modified: Mon, 01 Mar 2004 15:07:14 GMT\r\nETag: "780ed-0-345e2c80"\r\nAccept-Ranges: bytes\r\nCache-Control: max-age=259200\r\nExpires: Mon, 17 Jan 2005 01:54:22 GMT\r\nContent-Type: image/gif\r\nAge: 92\r\n\r\n\x07\xfb\x1d/'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 48
+     id        = 5407
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x6253
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = prm_nm_np
+        dport     = telnet
+        seq       = 516492110
+        ack       = 0
+        dataofs   = 7L
+        reserved  = 0L
+        flags     = S
+        window    = 16384
+        chksum    = 0x9020
+        urgptr    = 0
+        options   = [('MSS', 1460), ('NOP', None), ('NOP', None), ('SAckOK', '')]
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02\xb0\xb2\x9e\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x000\x15\x1f@\x00\x80\x06bS\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05{\x00\x17\x1e\xc9\x0bN\x00\x00\x00\x00p\x02@\x00\x90 \x00\x00\x02\x04\x05\xb4\x01\x01\x04\x02\xd5\xc6)\xf2'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x020\x06\xd9\x92\xf6\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x000\x07\xf6@\x00@\x06\xaf|\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00\x17\x05{\x0f\xa4\xbd\x8a\x1e\xc9\x0bOp\x12\xff\xff\x02\xe9\x00\x00\x02\x04\x05\xac\x01\x01\x04\x02,\xf0\xa0Z'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08I\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x020\x06\xb8\x95\xf6\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x000\x07\xf6@\x00@\x06\xaf|\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00\x17\x05{\x0f\xa4\xbd\x8a\x1e\xc9\x0bOp\x12\xff\xff\x02\xe9\x00\x00\x02\x04\x05\xac\x01\x01\x04\x02,\xf0\xa0Z'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 5408
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x625a
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = prm_nm_np
+        dport     = telnet
+        seq       = 516492111
+        ack       = 262454667
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = A
+        window    = 17424
+        chksum    = 0xeb94
+        urgptr    = 0
+        options   = {}
+###[ Padding ]###
+           load      = '\x00\x00\x00\x00\x00\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 48
+     id        = 2038
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xaf7c
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = telnet
+        dport     = prm_nm_np
+        seq       = 262454666
+        ack       = 516492111
+        dataofs   = 7L
+        reserved  = 0L
+        flags     = SA
+        window    = 65535
+        chksum    = 0x2e9
+        urgptr    = 0
+        options   = [('MSS', 1452), ('NOP', None), ('NOP', None), ('SAckOK', '')]
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02\xd0\xb2\xa0\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x15 @\x00\x80\x06bZ\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05{\x00\x17\x1e\xc9\x0bO\x0f\xa4\xbd\x8bP\x10D\x10\xeb\x94\x00\x008\x90\xd9\xb3'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02@\x06\xcfy\xf7\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00\x80\x07\xf7@\x00@\x06\xaf+\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00\x17\x05{\x0f\xa4\xbd\x8b\x1e\xc9\x0bOP\x18\xff\xff\x9be\x00\x00Microsoft Windows XP [Version 5.1.2600]\r\n(C) Copyright 1985-2001 Microsoft Corp.\r\n\r\nC:\\>T3Gw'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 128
+     id        = 2039
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xaf2b
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = telnet
+        dport     = prm_nm_np
+        seq       = 262454667
+        ack       = 516492111
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 65535
+        chksum    = 0x9b65
+        urgptr    = 0
+        options   = []
+###[ IRC Detector ]###
+###[ Raw ]###
+              load      = 'Microsoft Windows XP [Version 5.1.2600]\r\n(C) Copyright 1985-2001 Microsoft Corp.\r\n\r\nC:\\>'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 5409
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x6259
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = prm_nm_np
+        dport     = telnet
+        seq       = 516492111
+        ack       = 262454755
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = A
+        window    = 17336
+        chksum    = 0xeb94
+        urgptr    = 0
+        options   = {}
+###[ Padding ]###
+           load      = '\x00\x00\x00\x00\x00\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02\x00\xb3\xa2\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x15!@\x00\x80\x06bY\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05{\x00\x17\x1e\xc9\x0bO\x0f\xa4\xbd\xe3P\x10C\xb8\xeb\x94\x00\x00\xcf+\xa6c'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 44
+     id        = 5410
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x6254
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = prm_nm_np
+        dport     = telnet
+        seq       = 516492111
+        ack       = 262454755
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 17336
+        chksum    = 0x1515
+        urgptr    = 0
+        options   = []
+###[ IRC Detector ]###
+###[ Raw ]###
+              load      = 'dir\n'
+###[ Padding ]###
+                 load      = '\x00\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02\xf0\xb3\xa3\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00,\x15"@\x00\x80\x06bT\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05{\x00\x17\x1e\xc9\x0bO\x0f\xa4\xbd\xe3P\x18C\xb8\x15\x15\x00\x00dir\n1\xc7\xb3#'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02P\x06\xc6\x96\x0e\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00\xf1\x07\xf8@\x00@\x06\xae\xb9\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00\x17\x05{\x0f\xa4\xbd\xe3\x1e\xc9\x0bSP\x18\xff\xfb\x9c\x8c\x00\x00dir\r\n Volume in drive C has no label.\r\n Volume Serial Number is FF47-80EB\r\n\r\n Directory of C:\\\r\n\r\n01/12/2005  11:59 AM                 0 aierrorlog.txt\r\n01/19/2004  09:45 PM                 0 AUTOEXEC.UH:\xc2'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 241
+     id        = 2040
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xaeb9
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = telnet
+        dport     = prm_nm_np
+        seq       = 262454755
+        ack       = 516492115
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 65531
+        chksum    = 0x9c8c
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'dir\r\n Volume in drive C has no label.\r\n Volume Serial Number is FF47-80EB\r\n\r\n Directory of C:\\\r\n\r\n01/12/2005  11:59 AM                 0 aierrorlog.txt\r\n01/19/2004  09:45 PM                 0 AUTOEXEC.'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 5411
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x6257
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = prm_nm_np
+        dport     = telnet
+        seq       = 516492115
+        ack       = 262454956
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = A
+        window    = 17135
+        chksum    = 0xeb90
+        urgptr    = 0
+        options   = {}
+###[ Padding ]###
+           load      = '\x00\x00\x00\x00\x00\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02 \xb4\xa5\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x15#@\x00\x80\x06bW\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05{\x00\x17\x1e\xc9\x0bS\x0f\xa4\xbe\xacP\x10B\xef\xeb\x90\x00\x00s\x17\x91\x9a'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02`\x06\x92{\x10\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x04\x1b\x07\xf9@\x00@\x06\xab\x8e\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00\x17\x05{\x0f\xa4\xbe\xac\x1e\xc9\x0bSP\x18\xff\xfbj\x98\x00\x00BAT\r\n01/19/2004  09:45 PM                 0 CONFIG.SYS\r\n06/26/2004  12:12 PM    <DIR>          Documents and Settings\r\n02/03/2005  11:40 PM    <DIR>          EasyBoot\r\n02/29/2004  02:51 PM            11,531 installer-debug.txt\r\n12/19/2004  12:50 AM    <DIR>          mga\r\n12/19/2004  12:51 AM    <DIR>          mgafold\r\n11/24/2004  07:47 PM    <DIR>          mnt\r\n10/07/2004  10:01 AM    <DIR>          movie\r\n06/26/2004  01:03 PM    <DIR>          My Downloads\r\n01/13/2005  10:52 PM    <DIR>          Program Files\r\n01/04/2005  10:27 AM    <DIR>          quarantine\r\n04/19/2004  09:57 PM             7,241 s37g\r\n10/31/2004  08:36 PM                 0 s3fs\r\n06/02/2004  08:54 PM               123 systemscandata.txt\r\n08/08/2004  10:48 AM    <DIR>          Temp\r\n12/12/2004  02:24 PM        94,135,944 temp.mpg\r\n01/13/2005  06:10 PM    <DIR>          WINDOWS\r\n11/20/2004  09:27 AM    <DIR>          WUTemp\r\n               8 File(s)     94,154,839 bytes\r\n              12 Dir(s)   7,145,889,792 bytes free\r\n\r\nC:\\>6+\xc9\xc4'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 1051
+     id        = 2041
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xab8e
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = telnet
+        dport     = prm_nm_np
+        seq       = 262454956
+        ack       = 516492115
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 65531
+        chksum    = 0x6a98
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'BAT\r\n01/19/2004  09:45 PM                 0 CONFIG.SYS\r\n06/26/2004  12:12 PM    <DIR>          Documents and Settings\r\n02/03/2005  11:40 PM    <DIR>          EasyBoot\r\n02/29/2004  02:51 PM            11,531 installer-debug.txt\r\n12/19/2004  12:50 AM    <DIR>          mga\r\n12/19/2004  12:51 AM    <DIR>          mgafold\r\n11/24/2004  07:47 PM    <DIR>          mnt\r\n10/07/2004  10:01 AM    <DIR>          movie\r\n06/26/2004  01:03 PM    <DIR>          My Downloads\r\n01/13/2005  10:52 PM    <DIR>          Program Files\r\n01/04/2005  10:27 AM    <DIR>          quarantine\r\n04/19/2004  09:57 PM             7,241 s37g\r\n10/31/2004  08:36 PM                 0 s3fs\r\n06/02/2004  08:54 PM               123 systemscandata.txt\r\n08/08/2004  10:48 AM    <DIR>          Temp\r\n12/12/2004  02:24 PM        94,135,944 temp.mpg\r\n01/13/2005  06:10 PM    <DIR>          WINDOWS\r\n11/20/2004  09:27 AM    <DIR>          WUTemp\r\n               8 File(s)     94,154,839 bytes\r\n              12 Dir(s)   7,145,889,792 bytes free\r\n\r\nC:\\>'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 5412
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x6256
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = prm_nm_np
+        dport     = telnet
+        seq       = 516492115
+        ack       = 262455967
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = A
+        window    = 16124
+        chksum    = 0xeb90
+        urgptr    = 0
+        options   = {}
+###[ Padding ]###
+           load      = '\x00\x00\x00\x00\x00\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02`\xb4\xa7\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x15$@\x00\x80\x06bV\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05{\x00\x17\x1e\xc9\x0bS\x0f\xa4\xc2\x9fP\x10>\xfc\xeb\x90\x00\x00\x05\x1a\xb6Z'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 47
+     id        = 5413
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x624e
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = prm_nm_np
+        dport     = telnet
+        seq       = 516492115
+        ack       = 262455967
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 16124
+        chksum    = 0xe87f
+        urgptr    = 0
+        options   = []
+###[ IRC Detector ]###
+###[ Raw ]###
+              load      = 'ls -la\n'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02@\xb5\xa8\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00/\x15%@\x00\x80\x06bN\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05{\x00\x17\x1e\xc9\x0bS\x0f\xa4\xc2\x9fP\x18>\xfc\xe8\x7f\x00\x00ls -la\n\x8a\x93\xbbS'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = "\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02p\x06\x16\xe3(\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00\x93\x07\xfa@\x00@\x06\xaf\x15\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00\x17\x05{\x0f\xa4\xc2\x9f\x1e\xc9\x0bZP\x18\xff\xf4\xfaW\x00\x00ls -la\r\n'ls' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n\r\nC:\\>\xf3k\xc6}"
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 147
+     id        = 2042
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xaf15
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = telnet
+        dport     = prm_nm_np
+        seq       = 262455967
+        ack       = 516492122
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 65524
+        chksum    = 0xfa57
+        urgptr    = 0
+        options   = []
+###[ IRC Detector ]###
+###[ Raw ]###
+              load      = "ls -la\r\n'ls' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n\r\nC:\\>"
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 5414
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x6254
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = prm_nm_np
+        dport     = telnet
+        seq       = 516492122
+        ack       = 262456074
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = A
+        window    = 16017
+        chksum    = 0xeb89
+        urgptr    = 0
+        options   = {}
+###[ Padding ]###
+           load      = '\x00\x00\x00\x00\x00\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02\x90\xb5\xaa\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x15&@\x00\x80\x06bT\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05{\x00\x17\x1e\xc9\x0bZ\x0f\xa4\xc3\nP\x10>\x91\xeb\x89\x00\x008\xcc\xf4B'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 45
+     id        = 5415
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x624e
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = prm_nm_np
+        dport     = telnet
+        seq       = 516492122
+        ack       = 262456074
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 16017
+        chksum    = 0x1290
+        urgptr    = 0
+        options   = []
+###[ IRC Detector ]###
+###[ Raw ]###
+              load      = 'exit\n'
+###[ Padding ]###
+                 load      = '\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = "\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02p\xb9\xab\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00-\x15'@\x00\x80\x06bN\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05{\x00\x17\x1e\xc9\x0bZ\x0f\xa4\xc3\nP\x18>\x91\x12\x90\x00\x00exit\n\xb1d\xc7#"
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02\x80\x06n\xb3\x8b\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00.\x07\xfb@\x00@\x06\xafy\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00\x17\x05{\x0f\xa4\xc3\n\x1e\xc9\x0b_P\x18\xff\xefN!\x00\x00exit\r\nkGyT'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 46
+     id        = 2043
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xaf79
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = telnet
+        dport     = prm_nm_np
+        seq       = 262456074
+        ack       = 516492127
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 65519
+        chksum    = 0x4e21
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'exit\r\n'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02\x90\x06o\xb8\x8b\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x07\xfc@\x00@\x06\xaf~\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00\x17\x05{\x0f\xa4\xc3\x10\x1e\xc9\x0b_P\x14\x00\x00*\x0c\x00\x00[l\xe5\xd0'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 2044
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xaf7e
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = telnet
+        dport     = prm_nm_np
+        seq       = 262456080
+        ack       = 516492127
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = RA
+        window    = 0
+        chksum    = 0x2a0c
+        urgptr    = 0
+        options   = {}
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 48
+     id        = 5416
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x624a
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = igi_lm
+        dport     = http
+        seq       = 3048335747
+        ack       = 0
+        dataofs   = 7L
+        reserved  = 0L
+        flags     = S
+        window    = 16384
+        chksum    = 0x1ac8
+        urgptr    = 0
+        options   = [('MSS', 1460), ('NOP', None), ('NOP', None), ('SAckOK', '')]
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02p\xc0\xae\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x000\x15(@\x00\x80\x06bJ\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05|\x00P\xb5\xb1\xe9\x83\x00\x00\x00\x00p\x02@\x00\x1a\xc8\x00\x00\x02\x04\x05\xb4\x01\x01\x04\x02\x08\xa3\xca%'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02\xa0\x06\x94\xc61\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x000\x07\xfd@\x00@\x06\xafu\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00P\x05|/u}\xd2\xb5\xb1\xe9\x84p\x12\xff\xff\xadw\x00\x00\x02\x04\x05\xac\x01\x01\x04\x022I\x12\xfc'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 5417
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x6251
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = igi_lm
+        dport     = http
+        seq       = 3048335748
+        ack       = 796229075
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = A
+        window    = 17424
+        chksum    = 0x9623
+        urgptr    = 0
+        options   = {}
+###[ Padding ]###
+           load      = '\x00\x00\x00\x00\x00\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 48
+     id        = 2045
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xaf75
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = http
+        dport     = igi_lm
+        seq       = 796229074
+        ack       = 3048335748
+        dataofs   = 7L
+        reserved  = 0L
+        flags     = SA
+        window    = 65535
+        chksum    = 0xad77
+        urgptr    = 0
+        options   = [('MSS', 1452), ('NOP', None), ('NOP', None), ('SAckOK', '')]
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02\x90\xc0\xb0\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x15)@\x00\x80\x06bQ\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05|\x00P\xb5\xb1\xe9\x84/u}\xd3P\x10D\x10\x96#\x00\x001\x8f\x8fx'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02\xb0\x06\xd2\xab2\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00\x80\x07\xfe@\x00@\x06\xaf$\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00P\x05|/u}\xd3\xb5\xb1\xe9\x84P\x18\xff\xffE\xf4\x00\x00Microsoft Windows XP [Version 5.1.2600]\r\n(C) Copyright 1985-2001 Microsoft Corp.\r\n\r\nC:\\>\x82\xf6\xdfT'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 128
+     id        = 2046
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xaf24
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = http
+        dport     = igi_lm
+        seq       = 796229075
+        ack       = 3048335748
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 65535
+        chksum    = 0x45f4
+        urgptr    = 0
+        options   = []
+###[ IRC Detector ]###
+###[ Raw ]###
+              load      = 'Microsoft Windows XP [Version 5.1.2600]\r\n(C) Copyright 1985-2001 Microsoft Corp.\r\n\r\nC:\\>'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 5418
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x6250
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = igi_lm
+        dport     = http
+        seq       = 3048335748
+        ack       = 796229163
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = A
+        window    = 17336
+        chksum    = 0x9623
+        urgptr    = 0
+        options   = {}
+###[ Padding ]###
+           load      = '\x00\x00\x00\x00\x00\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02\xe0\xc0\xb2\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x15*@\x00\x80\x06bP\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05|\x00P\xb5\xb1\xe9\x84/u~+P\x10C\xb8\x96#\x00\x00bV\x10\x0b'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 44
+     id        = 5419
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x624b
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = igi_lm
+        dport     = http
+        seq       = 3048335748
+        ack       = 796229163
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 17336
+        chksum    = 0xbfa3
+        urgptr    = 0
+        options   = []
+###[ IRC Detector ]###
+###[ Raw ]###
+              load      = 'dir\n'
+###[ Padding ]###
+                 load      = '\x00\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02\xb0\xc1\xb3\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00,\x15+@\x00\x80\x06bK\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05|\x00P\xb5\xb1\xe9\x84/u~+P\x18C\xb8\xbf\xa3\x00\x00dir\n\xc5\x1f4i'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02\xc0\x06\xef\xe2I\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00\xf1\x07\xff@\x00@\x06\xae\xb2\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00P\x05|/u~+\xb5\xb1\xe9\x88P\x18\xff\xfbG\x1b\x00\x00dir\r\n Volume in drive C has no label.\r\n Volume Serial Number is FF47-80EB\r\n\r\n Directory of C:\\\r\n\r\n01/12/2005  11:59 AM                 0 aierrorlog.txt\r\n01/19/2004  09:45 PM                 0 AUTOEXEC.S`\x08\xfe'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 241
+     id        = 2047
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xaeb2
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = http
+        dport     = igi_lm
+        seq       = 796229163
+        ack       = 3048335752
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 65531
+        chksum    = 0x471b
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'dir\r\n Volume in drive C has no label.\r\n Volume Serial Number is FF47-80EB\r\n\r\n Directory of C:\\\r\n\r\n01/12/2005  11:59 AM                 0 aierrorlog.txt\r\n01/19/2004  09:45 PM                 0 AUTOEXEC.'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 5420
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x624e
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = igi_lm
+        dport     = http
+        seq       = 3048335752
+        ack       = 796229364
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = A
+        window    = 17135
+        chksum    = 0x961f
+        urgptr    = 0
+        options   = {}
+###[ Padding ]###
+           load      = '\x00\x00\x00\x00\x00\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = "\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02\xd0\x06&\xc8L\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x04\x1b\x08\x00@\x00@\x06\xab\x87\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00P\x05|/u~\xf4\xb5\xb1\xe9\x88P\x18\xff\xfb\x15'\x00\x00BAT\r\n01/19/2004  09:45 PM                 0 CONFIG.SYS\r\n06/26/2004  12:12 PM    <DIR>          Documents and Settings\r\n02/03/2005  11:40 PM    <DIR>          EasyBoot\r\n02/29/2004  02:51 PM            11,531 installer-debug.txt\r\n12/19/2004  12:50 AM    <DIR>          mga\r\n12/19/2004  12:51 AM    <DIR>          mgafold\r\n11/24/2004  07:47 PM    <DIR>          mnt\r\n10/07/2004  10:01 AM    <DIR>          movie\r\n06/26/2004  01:03 PM    <DIR>          My Downloads\r\n01/13/2005  10:52 PM    <DIR>          Program Files\r\n01/04/2005  10:27 AM    <DIR>          quarantine\r\n04/19/2004  09:57 PM             7,241 s37g\r\n10/31/2004  08:36 PM                 0 s3fs\r\n06/02/2004  08:54 PM               123 systemscandata.txt\r\n08/08/2004  10:48 AM    <DIR>          Temp\r\n12/12/2004  02:24 PM        94,135,944 temp.mpg\r\n01/13/2005  06:10 PM    <DIR>          WINDOWS\r\n11/20/2004  09:27 AM    <DIR>          WUTemp\r\n               8 File(s)     94,154,839 bytes\r\n              12 Dir(s)   7,145,889,792 bytes free\r\n\r\nC:\\>\x8f\x1e\xd6k"
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 1051
+     id        = 2048
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xab87
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = http
+        dport     = igi_lm
+        seq       = 796229364
+        ack       = 3048335752
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 65531
+        chksum    = 0x1527
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = 'BAT\r\n01/19/2004  09:45 PM                 0 CONFIG.SYS\r\n06/26/2004  12:12 PM    <DIR>          Documents and Settings\r\n02/03/2005  11:40 PM    <DIR>          EasyBoot\r\n02/29/2004  02:51 PM            11,531 installer-debug.txt\r\n12/19/2004  12:50 AM    <DIR>          mga\r\n12/19/2004  12:51 AM    <DIR>          mgafold\r\n11/24/2004  07:47 PM    <DIR>          mnt\r\n10/07/2004  10:01 AM    <DIR>          movie\r\n06/26/2004  01:03 PM    <DIR>          My Downloads\r\n01/13/2005  10:52 PM    <DIR>          Program Files\r\n01/04/2005  10:27 AM    <DIR>          quarantine\r\n04/19/2004  09:57 PM             7,241 s37g\r\n10/31/2004  08:36 PM                 0 s3fs\r\n06/02/2004  08:54 PM               123 systemscandata.txt\r\n08/08/2004  10:48 AM    <DIR>          Temp\r\n12/12/2004  02:24 PM        94,135,944 temp.mpg\r\n01/13/2005  06:10 PM    <DIR>          WINDOWS\r\n11/20/2004  09:27 AM    <DIR>          WUTemp\r\n               8 File(s)     94,154,839 bytes\r\n              12 Dir(s)   7,145,889,792 bytes free\r\n\r\nC:\\>'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 5421
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x624d
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = igi_lm
+        dport     = http
+        seq       = 3048335752
+        ack       = 796230375
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = A
+        window    = 16124
+        chksum    = 0x961f
+        urgptr    = 0
+        options   = {}
+###[ Padding ]###
+           load      = '\x00\x00\x00\x00\x00\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02@\xc2\xb7\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x15-@\x00\x80\x06bM\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05|\x00P\xb5\xb1\xe9\x88/u\x82\xe7P\x10>\xfc\x96\x1f\x00\x00Y\x11\xa3\xed'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 45
+     id        = 5422
+     flags     = DF
+     frag      = 0L
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x6247
+     src       = 192.168.1.3
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = igi_lm
+        dport     = http
+        seq       = 3048335752
+        ack       = 796230375
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = PA
+        window    = 16124
+        chksum    = 0xbd25
+        urgptr    = 0
+        options   = []
+###[ IRC Detector ]###
+###[ Raw ]###
+              load      = 'exit\n'
+###[ Padding ]###
+                 load      = '\x00'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:80:48:24:33:32
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08B\x02\x01\x00\x80H$32\x00\x10\xc60k\xb3\x00\x0e5x\x0c\x02\x10\xc3\xb8\xd2\x17\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00-\x15.@\x00\x80\x06bG\xc0\xa8\x01\x03\xc0\xa8\x01\x02\x05|\x00P\xb5\xb1\xe9\x88/u\x82\xe7P\x18>\xfc\xbd%\x00\x00exit\n}\xf4\x81\xfe'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:10:c6:30:6b:b3
+  src       = 00:0e:35:78:0c:02
+  type      = 0x2452
+###[ Raw ]###
+     load      = '\x08A\x02\x01\x00\x10\xc60k\xb3\x00\x80H$32\x00\x0e5x\x0c\x02\xe0\x06H\xd2c\x00\xaa\xaa\x03\x00\x00\x00\x08\x00E\x00\x00(\x08\x01@\x00@\x06\xafy\xc0\xa8\x01\x02\xc0\xa8\x01\x03\x00P\x05|/u\x82\xe7\xb5\xb1\xe9\x8dP\x14\x00\x00\xd5\x12\x00\x00E\x98\xfe\xdb'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:0e:35:78:0c:02
+  src       = 00:80:48:24:33:32
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 40
+     id        = 2049
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xaf79
+     src       = 192.168.1.2
+     dst       = 192.168.1.3
+     \options   \
+###[ TCP ]###
+        sport     = http
+        dport     = igi_lm
+        seq       = 796230375
+        ack       = 3048335757
+        dataofs   = 5L
+        reserved  = 0L
+        flags     = RA
+        window    = 0
+        chksum    = 0xd512
+        urgptr    = 0
+        options   = {}
+======================================================================

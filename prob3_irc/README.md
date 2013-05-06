@@ -3,10 +3,111 @@ Problem 3:  IRC Parser
 
 Write an IRC handler that reads a pcap and understands it and parse its information. The handler should be a class and the usage example should be demostrated with the pcap sample.
 
-Approach:
+
+My parser is based on Scapy, using bind_layers() to extend the protocol:
+
+New Approach:
+---
+I have reconstructed the parser and add three more things to make my code more beautiful:
+
+1. Regular Expression Based Parsing
+2. Dynamic Protocol Detection (Independent from port number)
+3. Error Handling
+4. Unit Test
+
+###1. Regular Expression Based Parsing
+
+I've spent some time on reading RFC 2812 to find more precise patterns of IRC messages and collected the keywords might appears in IRC. 
+
+And finally got the regular expression that can match the messages nicely:
+
+```regex
+irc_regex = 
+"^(:(?P<prefix>\S+) )?(?P<command>\S+)( (?!:)(?P<parameters>.+?))?( :(?P<trailer>.+))?$"
+```
+Inspired by and thanks to http://news.anarchy46.net/2012/01/irc-message-regex.html.
+
+
+Doing regular expression can help me get rid of string manipulations which is my previous method. And achieve the code more clean  :-)
+
 ---
 
-Based on scapy, using bind_layers() to extend the protocol:
+Here is the IRC keywords that I summarized according to RFC 2812:
+
+```python
+commands = 
+['PASS','NICK','USER','OPER','MODE','SERVICE','QUIT','SQUIT','JOIN','PART','MODE','TOPIC','NAMES','LIST',\		 'INVITE','KICK','PRIVMSG','NOTICE','MOTD','LUSERS','VERSION','STATS','LINKS','TIME','CONNECT','TRACE',\
+'ADMIN','INFO','SERVLIST','SQUERY','WHO','WHOIS','WHOWAS','KILL','PING','PONG','ERROR','AWAY','REHASH','DIE',\
+'RESTART','SUMMON','USERS','WALLOPS','USERHOST','ISON'] \
++
+['%03d' % d for d in xrange(1000)] #exact 3 digits number
+```
+```python
+def regex(self, msg):
+		#only consider the first line(message)
+		msg = msg.split(IRC.newline)[0]
+
+		match = re.search(IRC.irc_regex, msg)
+
+		#return as groups
+		return (match.group('prefix'), match.group('command'), match.group('parameters'), match.group('trailer'))
+```
+
+---
+
+###2. Dynamic Protocol Detection (Independent from port number):
+I am so excited that this is my first implementation of dynamic protocol detection. And my method is :
+
+1. I get the payload and break into single messages (lines).
+
+2. Pass the message to regular expression (regex) function and get the groups into prefix, command, parameters and trailer. 
+
+3. If successfully parsed by regex, then check the command whether it is among the keywords of IRC that I listed above.
+
+4. If keyword matches, then return IRC as successful detection; Otherwise, return the default guess of Scapy's Packet class.
+
+```python
+class IRCDetector(Packet):
+#Dynamic Protocol Detection
+	name = "IRC Detector"
+
+	def guess_payload_class(self, payload):
+
+		#to match the payload in the regular expression
+		groups = IRC().regex(payload)
+		command = groups[1] 
+
+
+		if command != None:
+			if command in IRC.commands: # to check if it's a irc command
+				return IRC
+		return Packet.guess_payload_class(self, payload) #return default guess
+
+```
+---
+
+###3. Error Handling:
+Try and raise exception when necessary.
+
+In addition, I make a new approach to enable the line breaker with more flexibility. 
+Now it supports \n or \r or \r\n to seperate lines.
+
+###4. Unit Test:
+
+To test the code with small data set, medium data set, and a larger set. 
+
+Moreover, I also tested other protocol like DNS to check the compatibility of my code, the protocol detection works fine, which won't affect the default protocol detection of Scapy after I make extensions based on Scapy.
+
+For details you may refer to unittest_irc.py and test results in the repository.
+
+
+
+---------------
+----------
+
+Old Approach:
+---
+
 
 ##Class Structure:
 Due to the similarity between IRC response and request, I define a base class IRC which has common fields "Prefix", "Command", "Parameter" and "Trailer".

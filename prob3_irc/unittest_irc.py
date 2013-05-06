@@ -33,6 +33,11 @@ class TestIRC(unittest.TestCase):
 		self.inputFile = 'a_larger_irc.pcap'
 		self.outputFile = 'test_results/results_larger.txt'
 		self.doTest()
+	
+	def test_compatibility(self):
+		self.inputFile = 'other_protocols.pcap'
+		self.outputFile = 'test_results/results_other_protocols.txt'
+		self.doTest()
 
 
 
