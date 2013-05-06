@@ -1,0 +1,155 @@
+0000 Ether / IP / TCP 192.168.1.2:amt_blc_port > 212.204.214.114:6667 PA / IRCDetector / IRC
+0001 Ether / IP / TCP 212.204.214.114:6667 > 192.168.1.2:amt_blc_port PA / IRCDetector / IRC
+0002 Ether / IP / TCP 192.168.1.2:amt_blc_port > 212.204.214.114:6667 PA / IRCDetector / IRC
+0003 Ether / IP / TCP 192.168.1.2:amt_blc_port > 212.204.214.114:6667 PA / IRCDetector / IRC
+
+-------------------- Packets Details: 
+
+###[ Ethernet ]###
+  dst       = 00:16:e3:19:27:15
+  src       = 00:04:76:96:7b:da
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 82
+     id        = 30445
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x56cf
+     src       = 192.168.1.2
+     dst       = 212.204.214.114
+     \options   \
+###[ TCP ]###
+        sport     = amt_blc_port
+        dport     = 6667
+        seq       = 1304973037
+        ack       = 1425084530
+        dataofs   = 8L
+        reserved  = 0L
+        flags     = PA
+        window    = 8011
+        chksum    = 0x6d2e
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (14215752, 2196036272))]
+###[ IRC Detector ]###
+###[ IRC ]###
+              Prefix    = None
+              Command   = 'ISON'
+              Parameter = 'Thunfisch Smiley SmileyG'
+              Trailer   = None
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:04:76:96:7b:da
+  src       = 00:16:e3:19:27:15
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 98
+     id        = 13586
+     flags     = DF
+     frag      = 0L
+     ttl       = 46
+     proto     = tcp
+     chksum    = 0xaa9a
+     src       = 212.204.214.114
+     dst       = 192.168.1.2
+     \options   \
+###[ TCP ]###
+        sport     = 6667
+        dport     = amt_blc_port
+        seq       = 1425084530
+        ack       = 1304973067
+        dataofs   = 8L
+        reserved  = 0L
+        flags     = PA
+        window    = 57920
+        chksum    = 0x47d2
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (2196036565, 14215752))]
+###[ IRC Detector ]###
+###[ IRC ]###
+              Prefix    = 'sterling.freenode.net'
+              Command   = '303'
+              Parameter = 'vmlemon'
+              Trailer   = 'SmileyG'
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:16:e3:19:27:15
+  src       = 00:04:76:96:7b:da
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 68
+     id        = 30451
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x56d7
+     src       = 192.168.1.2
+     dst       = 212.204.214.114
+     \options   \
+###[ TCP ]###
+        sport     = amt_blc_port
+        dport     = 6667
+        seq       = 1304973067
+        ack       = 1425084880
+        dataofs   = 8L
+        reserved  = 0L
+        flags     = PA
+        window    = 8011
+        chksum    = 0x6d20
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (14231265, 2196038037))]
+###[ IRC Detector ]###
+###[ IRC ]###
+              Prefix    = None
+              Command   = 'WHO'
+              Parameter = '#rokymotion'
+              Trailer   = None
+======================================================================
+###[ Ethernet ]###
+  dst       = 00:16:e3:19:27:15
+  src       = 00:04:76:96:7b:da
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 5L
+     tos       = 0x0
+     len       = 82
+     id        = 30455
+     flags     = DF
+     frag      = 0L
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x56c5
+     src       = 192.168.1.2
+     dst       = 212.204.214.114
+     \options   \
+###[ TCP ]###
+        sport     = amt_blc_port
+        dport     = 6667
+        seq       = 1304973083
+        ack       = 1425087084
+        dataofs   = 8L
+        reserved  = 0L
+        flags     = PA
+        window    = 8011
+        chksum    = 0x6d2e
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (14235996, 2196038201))]
+###[ IRC Detector ]###
+###[ IRC ]###
+              Prefix    = None
+              Command   = 'ISON'
+              Parameter = 'Thunfisch Smiley SmileyG'
+              Trailer   = None
+======================================================================
