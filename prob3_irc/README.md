@@ -21,7 +21,7 @@ I've spent some time on reading RFC 2812 to find more precise patterns of IRC me
 
 And finally got the regular expression that can match the messages nicely:
 
-```regex
+```python
 irc_regex = 
 "^(:(?P<prefix>\S+) )?(?P<command>\S+)( (?!:)(?P<parameters>.+?))?( :(?P<trailer>.+))?$"
 ```
@@ -89,7 +89,7 @@ class IRCDetector(Packet):
 ###3. Error Handling:
 Try and raise exception when necessary.
 
-In addition, I make a new approach to enable the line breaker with more flexibility. 
+In addition, I also made a new approach to enable the line breaker with more flexibility. 
 Now it supports \n or \r or \r\n to seperate lines.
 
 ###4. Unit Test:
