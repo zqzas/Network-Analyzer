@@ -71,7 +71,7 @@ class IRC(Packet):
         #if only one line:
 		if num == 1:
 			return ''
-		for i in range(0, num - 1):
+		for i in xrange(num - 1):
             #add these lines, recursively:
 			self.underlayer.add_payload(IRC(ls[i]))
 
